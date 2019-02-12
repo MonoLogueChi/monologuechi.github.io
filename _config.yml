@@ -144,7 +144,7 @@ hexo-tag-dplayer:
     - https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.js
     - https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.css
   default: 
-    api: https://api.prprpr.me/dplayer3/
+    api: https://api.prprpr.me/dplayer/
     loop: yes
     screenshot: yes
 
