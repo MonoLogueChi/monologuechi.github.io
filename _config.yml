@@ -135,7 +135,8 @@ aplayer:
   style_cdn: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css
   meting: true                                  # MetingJS 支持
   meting_api: https://sm.sm9.top/api.php
-  meting_cdn: https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js # 引用 Meting.js 外部 CDN 地址 (默认不开启)
+  #meting_cdn: https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js # 引用 Meting.js 外部 CDN 地址 (默认不开启)
+  meting_cdn: https://cdn.jsdelivr.net/npm/meting@1.2/dist/Meting.min.js
   asset_inject: true                            # 自动插入 Aplayer.js 与 Meting.js 资源脚本, 默认开启
 
 #DPlayer
