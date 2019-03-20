@@ -4,7 +4,6 @@ Allow: /2018/
 Allow: /2019/
 Allow: /2020/
 Allow: /
-Disallow: /index.html
 Disallow: /page/
 Disallow: /aboutme
 Disallow: /archives/
