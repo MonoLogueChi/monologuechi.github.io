@@ -5,9 +5,9 @@
   <subtitle>叉叉白，听我跟你瞎白话</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://www.xxwhite.com/"/>
+  <link href="https://blog.xxwhite.com/"/>
   <updated>2019-02-06T04:58:50.318Z</updated>
-  <id>https://www.xxwhite.com/</id>
+  <id>https://blog.xxwhite.com/</id>
   
   <author>
     <name>MonoLogueChi</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>SONY XZP Root</title>
-    <link href="https://www.xxwhite.com/2019/xzp-root.html"/>
-    <id>https://www.xxwhite.com/2019/xzp-root.html</id>
+    <link href="https://blog.xxwhite.com/2019/xzp-root.html"/>
+    <id>https://blog.xxwhite.com/2019/xzp-root.html</id>
     <published>2019-02-06T02:55:25.000Z</published>
     <updated>2019-02-06T04:58:50.318Z</updated>
     
@@ -32,14 +32,14 @@
     </summary>
     
     
-      <category term="搞机" scheme="https://www.xxwhite.com/tags/%E6%90%9E%E6%9C%BA/"/>
+      <category term="搞机" scheme="https://blog.xxwhite.com/tags/%E6%90%9E%E6%9C%BA/"/>
     
   </entry>
   
   <entry>
     <title>自己动手修改完善yilia主题（下）</title>
-    <link href="https://www.xxwhite.com/2019/your-own-yilia-2.html"/>
-    <id>https://www.xxwhite.com/2019/your-own-yilia-2.html</id>
+    <link href="https://blog.xxwhite.com/2019/your-own-yilia-2.html"/>
+    <id>https://blog.xxwhite.com/2019/your-own-yilia-2.html</id>
     <published>2019-02-01T06:40:40.000Z</published>
     <updated>2019-02-01T07:20:20.899Z</updated>
     
@@ -52,14 +52,14 @@
     </summary>
     
     
-      <category term="建站笔记" scheme="https://www.xxwhite.com/tags/%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/"/>
+      <category term="建站笔记" scheme="https://blog.xxwhite.com/tags/%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>自己动手修改完善yilia主题（上）</title>
-    <link href="https://www.xxwhite.com/2019/your-own-yilia-1.html"/>
-    <id>https://www.xxwhite.com/2019/your-own-yilia-1.html</id>
+    <link href="https://blog.xxwhite.com/2019/your-own-yilia-1.html"/>
+    <id>https://blog.xxwhite.com/2019/your-own-yilia-1.html</id>
     <published>2019-01-26T05:49:23.000Z</published>
     <updated>2019-01-26T08:54:21.355Z</updated>
     
@@ -72,14 +72,14 @@
     </summary>
     
     
-      <category term="建站笔记" scheme="https://www.xxwhite.com/tags/%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/"/>
+      <category term="建站笔记" scheme="https://blog.xxwhite.com/tags/%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>CPU降压降温方案</title>
-    <link href="https://www.xxwhite.com/2019/cpu-reduction-voltage.html"/>
-    <id>https://www.xxwhite.com/2019/cpu-reduction-voltage.html</id>
+    <link href="https://blog.xxwhite.com/2019/cpu-reduction-voltage.html"/>
+    <id>https://blog.xxwhite.com/2019/cpu-reduction-voltage.html</id>
     <published>2019-01-19T01:33:46.000Z</published>
     <updated>2019-01-19T04:20:01.745Z</updated>
     
@@ -92,14 +92,14 @@
     </summary>
     
     
-      <category term="随便水水" scheme="https://www.xxwhite.com/tags/%E9%9A%8F%E4%BE%BF%E6%B0%B4%E6%B0%B4/"/>
+      <category term="随便水水" scheme="https://blog.xxwhite.com/tags/%E9%9A%8F%E4%BE%BF%E6%B0%B4%E6%B0%B4/"/>
     
   </entry>
   
   <entry>
     <title>为知识付费</title>
-    <link href="https://www.xxwhite.com/2019/pay-for-knowledge.html"/>
-    <id>https://www.xxwhite.com/2019/pay-for-knowledge.html</id>
+    <link href="https://blog.xxwhite.com/2019/pay-for-knowledge.html"/>
+    <id>https://blog.xxwhite.com/2019/pay-for-knowledge.html</id>
     <published>2019-01-05T04:08:07.000Z</published>
     <updated>2019-01-05T06:20:45.570Z</updated>
     
@@ -112,14 +112,14 @@
     </summary>
     
     
-      <category term="随便水水" scheme="https://www.xxwhite.com/tags/%E9%9A%8F%E4%BE%BF%E6%B0%B4%E6%B0%B4/"/>
+      <category term="随便水水" scheme="https://blog.xxwhite.com/tags/%E9%9A%8F%E4%BE%BF%E6%B0%B4%E6%B0%B4/"/>
     
   </entry>
   
   <entry>
     <title>Unity包管理和调试</title>
-    <link href="https://www.xxwhite.com/2018/unity-vs-debug.html"/>
-    <id>https://www.xxwhite.com/2018/unity-vs-debug.html</id>
+    <link href="https://blog.xxwhite.com/2018/unity-vs-debug.html"/>
+    <id>https://blog.xxwhite.com/2018/unity-vs-debug.html</id>
     <published>2018-12-08T14:10:18.000Z</published>
     <updated>2018-12-21T14:20:14.112Z</updated>
     
@@ -132,14 +132,14 @@
     </summary>
     
     
-      <category term="Unity" scheme="https://www.xxwhite.com/tags/Unity/"/>
+      <category term="Unity" scheme="https://blog.xxwhite.com/tags/Unity/"/>
     
   </entry>
   
   <entry>
     <title>九九乘法表？</title>
-    <link href="https://www.xxwhite.com/2018/9x9.html"/>
-    <id>https://www.xxwhite.com/2018/9x9.html</id>
+    <link href="https://blog.xxwhite.com/2018/9x9.html"/>
+    <id>https://blog.xxwhite.com/2018/9x9.html</id>
     <published>2018-11-20T12:54:08.000Z</published>
     <updated>2018-12-21T14:20:14.098Z</updated>
     
@@ -152,14 +152,14 @@
     </summary>
     
     
-      <category term="C#" scheme="https://www.xxwhite.com/tags/C/"/>
+      <category term="C#" scheme="https://blog.xxwhite.com/tags/C/"/>
     
   </entry>
   
   <entry>
     <title>打造Unity最强IDE</title>
-    <link href="https://www.xxwhite.com/2018/unity-vs-resharper.html"/>
-    <id>https://www.xxwhite.com/2018/unity-vs-resharper.html</id>
+    <link href="https://blog.xxwhite.com/2018/unity-vs-resharper.html"/>
+    <id>https://blog.xxwhite.com/2018/unity-vs-resharper.html</id>
     <published>2018-11-14T14:44:57.000Z</published>
     <updated>2018-12-21T14:20:14.113Z</updated>
     
@@ -172,14 +172,14 @@
     </summary>
     
     
-      <category term="Unity" scheme="https://www.xxwhite.com/tags/Unity/"/>
+      <category term="Unity" scheme="https://blog.xxwhite.com/tags/Unity/"/>
     
   </entry>
   
   <entry>
     <title>录制视频时显示按键</title>
-    <link href="https://www.xxwhite.com/2018/KeyCastOW.html"/>
-    <id>https://www.xxwhite.com/2018/KeyCastOW.html</id>
+    <link href="https://blog.xxwhite.com/2018/KeyCastOW.html"/>
+    <id>https://blog.xxwhite.com/2018/KeyCastOW.html</id>
     <published>2018-10-28T14:54:43.000Z</published>
     <updated>2019-02-10T14:41:25.409Z</updated>
     
@@ -192,16 +192,16 @@
     </summary>
     
     
-      <category term="随便水水" scheme="https://www.xxwhite.com/tags/%E9%9A%8F%E4%BE%BF%E6%B0%B4%E6%B0%B4/"/>
+      <category term="随便水水" scheme="https://blog.xxwhite.com/tags/%E9%9A%8F%E4%BE%BF%E6%B0%B4%E6%B0%B4/"/>
     
-      <category term="软件" scheme="https://www.xxwhite.com/tags/%E8%BD%AF%E4%BB%B6/"/>
+      <category term="软件" scheme="https://blog.xxwhite.com/tags/%E8%BD%AF%E4%BB%B6/"/>
     
   </entry>
   
   <entry>
     <title>二手洋垃圾改造</title>
-    <link href="https://www.xxwhite.com/2018/personal-server.html"/>
-    <id>https://www.xxwhite.com/2018/personal-server.html</id>
+    <link href="https://blog.xxwhite.com/2018/personal-server.html"/>
+    <id>https://blog.xxwhite.com/2018/personal-server.html</id>
     <published>2018-09-22T12:40:04.000Z</published>
     <updated>2018-12-21T14:20:14.110Z</updated>
     
@@ -214,16 +214,16 @@
     </summary>
     
     
-      <category term="服务器" scheme="https://www.xxwhite.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+      <category term="服务器" scheme="https://blog.xxwhite.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
-      <category term="个人电脑" scheme="https://www.xxwhite.com/tags/%E4%B8%AA%E4%BA%BA%E7%94%B5%E8%84%91/"/>
+      <category term="个人电脑" scheme="https://blog.xxwhite.com/tags/%E4%B8%AA%E4%BA%BA%E7%94%B5%E8%84%91/"/>
     
   </entry>
   
   <entry>
     <title>一加五换屏记录</title>
-    <link href="https://www.xxwhite.com/2018/oneplus5-change-screen.html"/>
-    <id>https://www.xxwhite.com/2018/oneplus5-change-screen.html</id>
+    <link href="https://blog.xxwhite.com/2018/oneplus5-change-screen.html"/>
+    <id>https://blog.xxwhite.com/2018/oneplus5-change-screen.html</id>
     <published>2018-07-31T15:20:57.000Z</published>
     <updated>2018-12-21T14:20:14.108Z</updated>
     
@@ -236,16 +236,16 @@
     </summary>
     
     
-      <category term="搞机" scheme="https://www.xxwhite.com/tags/%E6%90%9E%E6%9C%BA/"/>
+      <category term="搞机" scheme="https://blog.xxwhite.com/tags/%E6%90%9E%E6%9C%BA/"/>
     
-      <category term="炎黄幼儿园" scheme="https://www.xxwhite.com/tags/%E7%82%8E%E9%BB%84%E5%B9%BC%E5%84%BF%E5%9B%AD/"/>
+      <category term="炎黄幼儿园" scheme="https://blog.xxwhite.com/tags/%E7%82%8E%E9%BB%84%E5%B9%BC%E5%84%BF%E5%9B%AD/"/>
     
   </entry>
   
   <entry>
     <title>.net core程序示例</title>
-    <link href="https://www.xxwhite.com/2018/run-dotnetcore.html"/>
-    <id>https://www.xxwhite.com/2018/run-dotnetcore.html</id>
+    <link href="https://blog.xxwhite.com/2018/run-dotnetcore.html"/>
+    <id>https://blog.xxwhite.com/2018/run-dotnetcore.html</id>
     <published>2018-07-26T13:42:33.000Z</published>
     <updated>2018-12-21T14:20:14.111Z</updated>
     
@@ -258,18 +258,18 @@
     </summary>
     
     
-      <category term="C#" scheme="https://www.xxwhite.com/tags/C/"/>
+      <category term="C#" scheme="https://blog.xxwhite.com/tags/C/"/>
     
-      <category term="炎黄幼儿园" scheme="https://www.xxwhite.com/tags/%E7%82%8E%E9%BB%84%E5%B9%BC%E5%84%BF%E5%9B%AD/"/>
+      <category term="炎黄幼儿园" scheme="https://blog.xxwhite.com/tags/%E7%82%8E%E9%BB%84%E5%B9%BC%E5%84%BF%E5%9B%AD/"/>
     
-      <category term="dotnet" scheme="https://www.xxwhite.com/tags/dotnet/"/>
+      <category term="dotnet" scheme="https://blog.xxwhite.com/tags/dotnet/"/>
     
   </entry>
   
   <entry>
     <title>WSL调试体验</title>
-    <link href="https://www.xxwhite.com/2018/wsl.html"/>
-    <id>https://www.xxwhite.com/2018/wsl.html</id>
+    <link href="https://blog.xxwhite.com/2018/wsl.html"/>
+    <id>https://blog.xxwhite.com/2018/wsl.html</id>
     <published>2018-07-22T06:05:42.000Z</published>
     <updated>2018-12-21T14:20:14.115Z</updated>
     
@@ -282,16 +282,16 @@
     </summary>
     
     
-      <category term="建站笔记" scheme="https://www.xxwhite.com/tags/%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/"/>
+      <category term="建站笔记" scheme="https://blog.xxwhite.com/tags/%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="炎黄幼儿园" scheme="https://www.xxwhite.com/tags/%E7%82%8E%E9%BB%84%E5%B9%BC%E5%84%BF%E5%9B%AD/"/>
+      <category term="炎黄幼儿园" scheme="https://blog.xxwhite.com/tags/%E7%82%8E%E9%BB%84%E5%B9%BC%E5%84%BF%E5%9B%AD/"/>
     
   </entry>
   
   <entry>
     <title>聊聊几种常见的图片格式</title>
-    <link href="https://www.xxwhite.com/2018/image-format.html"/>
-    <id>https://www.xxwhite.com/2018/image-format.html</id>
+    <link href="https://blog.xxwhite.com/2018/image-format.html"/>
+    <id>https://blog.xxwhite.com/2018/image-format.html</id>
     <published>2018-07-13T15:27:44.000Z</published>
     <updated>2018-12-21T14:20:14.108Z</updated>
     
@@ -304,16 +304,16 @@
     </summary>
     
     
-      <category term="随便水水" scheme="https://www.xxwhite.com/tags/%E9%9A%8F%E4%BE%BF%E6%B0%B4%E6%B0%B4/"/>
+      <category term="随便水水" scheme="https://blog.xxwhite.com/tags/%E9%9A%8F%E4%BE%BF%E6%B0%B4%E6%B0%B4/"/>
     
-      <category term="涨姿势" scheme="https://www.xxwhite.com/tags/%E6%B6%A8%E5%A7%BF%E5%8A%BF/"/>
+      <category term="涨姿势" scheme="https://blog.xxwhite.com/tags/%E6%B6%A8%E5%A7%BF%E5%8A%BF/"/>
     
   </entry>
   
   <entry>
     <title>OneIndex下载站搭建</title>
-    <link href="https://www.xxwhite.com/2018/using-oneindex.html"/>
-    <id>https://www.xxwhite.com/2018/using-oneindex.html</id>
+    <link href="https://blog.xxwhite.com/2018/using-oneindex.html"/>
+    <id>https://blog.xxwhite.com/2018/using-oneindex.html</id>
     <published>2018-07-07T00:49:12.000Z</published>
     <updated>2018-12-21T14:20:14.113Z</updated>
     
@@ -326,16 +326,16 @@
     </summary>
     
     
-      <category term="建站笔记" scheme="https://www.xxwhite.com/tags/%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/"/>
+      <category term="建站笔记" scheme="https://blog.xxwhite.com/tags/%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="涨姿势" scheme="https://www.xxwhite.com/tags/%E6%B6%A8%E5%A7%BF%E5%8A%BF/"/>
+      <category term="涨姿势" scheme="https://blog.xxwhite.com/tags/%E6%B6%A8%E5%A7%BF%E5%8A%BF/"/>
     
   </entry>
   
   <entry>
     <title>破解一加五长截图限制</title>
-    <link href="https://www.xxwhite.com/2018/OP5LongShot.html"/>
-    <id>https://www.xxwhite.com/2018/OP5LongShot.html</id>
+    <link href="https://blog.xxwhite.com/2018/OP5LongShot.html"/>
+    <id>https://blog.xxwhite.com/2018/OP5LongShot.html</id>
     <published>2018-06-19T08:26:58.000Z</published>
     <updated>2018-12-21T14:20:14.103Z</updated>
     
@@ -349,16 +349,16 @@
     </summary>
     
     
-      <category term="搞机" scheme="https://www.xxwhite.com/tags/%E6%90%9E%E6%9C%BA/"/>
+      <category term="搞机" scheme="https://blog.xxwhite.com/tags/%E6%90%9E%E6%9C%BA/"/>
     
-      <category term="炎黄幼儿园" scheme="https://www.xxwhite.com/tags/%E7%82%8E%E9%BB%84%E5%B9%BC%E5%84%BF%E5%9B%AD/"/>
+      <category term="炎黄幼儿园" scheme="https://blog.xxwhite.com/tags/%E7%82%8E%E9%BB%84%E5%B9%BC%E5%84%BF%E5%9B%AD/"/>
     
   </entry>
   
   <entry>
     <title>免费家庭版Xshell6下载</title>
-    <link href="https://www.xxwhite.com/2018/FreeXshell6.html"/>
-    <id>https://www.xxwhite.com/2018/FreeXshell6.html</id>
+    <link href="https://blog.xxwhite.com/2018/FreeXshell6.html"/>
+    <id>https://blog.xxwhite.com/2018/FreeXshell6.html</id>
     <published>2018-06-18T06:05:55.000Z</published>
     <updated>2018-12-21T14:20:14.101Z</updated>
     
@@ -371,16 +371,16 @@
     </summary>
     
     
-      <category term="涨姿势" scheme="https://www.xxwhite.com/tags/%E6%B6%A8%E5%A7%BF%E5%8A%BF/"/>
+      <category term="涨姿势" scheme="https://blog.xxwhite.com/tags/%E6%B6%A8%E5%A7%BF%E5%8A%BF/"/>
     
-      <category term="软件" scheme="https://www.xxwhite.com/tags/%E8%BD%AF%E4%BB%B6/"/>
+      <category term="软件" scheme="https://blog.xxwhite.com/tags/%E8%BD%AF%E4%BB%B6/"/>
     
   </entry>
   
   <entry>
     <title>毕业了，顺便立个Flag</title>
-    <link href="https://www.xxwhite.com/2018/graduation-and-flag.html"/>
-    <id>https://www.xxwhite.com/2018/graduation-and-flag.html</id>
+    <link href="https://blog.xxwhite.com/2018/graduation-and-flag.html"/>
+    <id>https://blog.xxwhite.com/2018/graduation-and-flag.html</id>
     <published>2018-05-25T12:49:49.000Z</published>
     <updated>2018-12-21T14:20:14.107Z</updated>
     
@@ -393,14 +393,14 @@
     </summary>
     
     
-      <category term="随便水水" scheme="https://www.xxwhite.com/tags/%E9%9A%8F%E4%BE%BF%E6%B0%B4%E6%B0%B4/"/>
+      <category term="随便水水" scheme="https://blog.xxwhite.com/tags/%E9%9A%8F%E4%BE%BF%E6%B0%B4%E6%B0%B4/"/>
     
   </entry>
   
   <entry>
     <title>香橙派初体验</title>
-    <link href="https://www.xxwhite.com/2018/orangepi.html"/>
-    <id>https://www.xxwhite.com/2018/orangepi.html</id>
+    <link href="https://blog.xxwhite.com/2018/orangepi.html"/>
+    <id>https://blog.xxwhite.com/2018/orangepi.html</id>
     <published>2018-03-25T07:17:46.000Z</published>
     <updated>2018-12-21T14:20:14.109Z</updated>
     
@@ -413,16 +413,16 @@
     </summary>
     
     
-      <category term="随便水水" scheme="https://www.xxwhite.com/tags/%E9%9A%8F%E4%BE%BF%E6%B0%B4%E6%B0%B4/"/>
+      <category term="随便水水" scheme="https://blog.xxwhite.com/tags/%E9%9A%8F%E4%BE%BF%E6%B0%B4%E6%B0%B4/"/>
     
-      <category term="香橙派" scheme="https://www.xxwhite.com/tags/%E9%A6%99%E6%A9%99%E6%B4%BE/"/>
+      <category term="香橙派" scheme="https://blog.xxwhite.com/tags/%E9%A6%99%E6%A9%99%E6%B4%BE/"/>
     
   </entry>
   
   <entry>
     <title>Fusion App非官方介绍（上）</title>
-    <link href="https://www.xxwhite.com/2018/FusionApp1.html"/>
-    <id>https://www.xxwhite.com/2018/FusionApp1.html</id>
+    <link href="https://blog.xxwhite.com/2018/FusionApp1.html"/>
+    <id>https://blog.xxwhite.com/2018/FusionApp1.html</id>
     <published>2018-03-20T03:16:10.000Z</published>
     <updated>2018-12-21T14:20:14.102Z</updated>
     
@@ -435,16 +435,16 @@
     </summary>
     
     
-      <category term="搞机" scheme="https://www.xxwhite.com/tags/%E6%90%9E%E6%9C%BA/"/>
+      <category term="搞机" scheme="https://blog.xxwhite.com/tags/%E6%90%9E%E6%9C%BA/"/>
     
-      <category term="炎黄幼儿园" scheme="https://www.xxwhite.com/tags/%E7%82%8E%E9%BB%84%E5%B9%BC%E5%84%BF%E5%9B%AD/"/>
+      <category term="炎黄幼儿园" scheme="https://blog.xxwhite.com/tags/%E7%82%8E%E9%BB%84%E5%B9%BC%E5%84%BF%E5%9B%AD/"/>
     
   </entry>
   
   <entry>
     <title>推荐几个不错的小工具</title>
-    <link href="https://www.xxwhite.com/2018/recommended-tools.html"/>
-    <id>https://www.xxwhite.com/2018/recommended-tools.html</id>
+    <link href="https://blog.xxwhite.com/2018/recommended-tools.html"/>
+    <id>https://blog.xxwhite.com/2018/recommended-tools.html</id>
     <published>2018-03-04T12:38:22.000Z</published>
     <updated>2018-12-21T14:20:14.110Z</updated>
     
@@ -457,14 +457,14 @@
     </summary>
     
     
-      <category term="随便水水" scheme="https://www.xxwhite.com/tags/%E9%9A%8F%E4%BE%BF%E6%B0%B4%E6%B0%B4/"/>
+      <category term="随便水水" scheme="https://blog.xxwhite.com/tags/%E9%9A%8F%E4%BE%BF%E6%B0%B4%E6%B0%B4/"/>
     
   </entry>
   
   <entry>
     <title>写一个Drcom第三方客户端</title>
-    <link href="https://www.xxwhite.com/2018/drcom-develop.html"/>
-    <id>https://www.xxwhite.com/2018/drcom-develop.html</id>
+    <link href="https://blog.xxwhite.com/2018/drcom-develop.html"/>
+    <id>https://blog.xxwhite.com/2018/drcom-develop.html</id>
     <published>2018-03-01T04:22:55.000Z</published>
     <updated>2018-12-21T14:20:14.107Z</updated>
     
@@ -478,16 +478,16 @@
     </summary>
     
     
-      <category term="C#" scheme="https://www.xxwhite.com/tags/C/"/>
+      <category term="C#" scheme="https://blog.xxwhite.com/tags/C/"/>
     
-      <category term="软件" scheme="https://www.xxwhite.com/tags/%E8%BD%AF%E4%BB%B6/"/>
+      <category term="软件" scheme="https://blog.xxwhite.com/tags/%E8%BD%AF%E4%BB%B6/"/>
     
   </entry>
   
   <entry>
     <title>中南大学联通校园网络第三方客户端</title>
-    <link href="https://www.xxwhite.com/2018/Drcom.html"/>
-    <id>https://www.xxwhite.com/2018/Drcom.html</id>
+    <link href="https://blog.xxwhite.com/2018/Drcom.html"/>
+    <id>https://blog.xxwhite.com/2018/Drcom.html</id>
     <published>2018-02-24T05:09:25.000Z</published>
     <updated>2018-12-21T14:20:14.100Z</updated>
     
@@ -500,14 +500,14 @@
     </summary>
     
     
-      <category term="软件" scheme="https://www.xxwhite.com/tags/%E8%BD%AF%E4%BB%B6/"/>
+      <category term="软件" scheme="https://blog.xxwhite.com/tags/%E8%BD%AF%E4%BB%B6/"/>
     
   </entry>
   
   <entry>
     <title>自己精简制作Win系统镜像</title>
-    <link href="https://www.xxwhite.com/2018/simplify-windows.html"/>
-    <id>https://www.xxwhite.com/2018/simplify-windows.html</id>
+    <link href="https://blog.xxwhite.com/2018/simplify-windows.html"/>
+    <id>https://blog.xxwhite.com/2018/simplify-windows.html</id>
     <published>2018-02-12T15:00:32.000Z</published>
     <updated>2018-12-21T14:20:14.112Z</updated>
     
@@ -520,14 +520,14 @@
     </summary>
     
     
-      <category term="涨姿势" scheme="https://www.xxwhite.com/tags/%E6%B6%A8%E5%A7%BF%E5%8A%BF/"/>
+      <category term="涨姿势" scheme="https://blog.xxwhite.com/tags/%E6%B6%A8%E5%A7%BF%E5%8A%BF/"/>
     
   </entry>
   
   <entry>
     <title>使用又拍云托管静态网站</title>
-    <link href="https://www.xxwhite.com/2018/using-upyun.html"/>
-    <id>https://www.xxwhite.com/2018/using-upyun.html</id>
+    <link href="https://blog.xxwhite.com/2018/using-upyun.html"/>
+    <id>https://blog.xxwhite.com/2018/using-upyun.html</id>
     <published>2018-02-11T14:26:30.000Z</published>
     <updated>2018-12-21T14:20:14.114Z</updated>
     
@@ -540,14 +540,14 @@
     </summary>
     
     
-      <category term="建站笔记" scheme="https://www.xxwhite.com/tags/%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/"/>
+      <category term="建站笔记" scheme="https://blog.xxwhite.com/tags/%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>增加一个MarkDown文件下载功能</title>
-    <link href="https://www.xxwhite.com/2018/add-download-markdown.html"/>
-    <id>https://www.xxwhite.com/2018/add-download-markdown.html</id>
+    <link href="https://blog.xxwhite.com/2018/add-download-markdown.html"/>
+    <id>https://blog.xxwhite.com/2018/add-download-markdown.html</id>
     <published>2018-02-03T08:10:01.000Z</published>
     <updated>2018-12-21T14:20:14.105Z</updated>
     
@@ -560,14 +560,14 @@
     </summary>
     
     
-      <category term="建站笔记" scheme="https://www.xxwhite.com/tags/%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/"/>
+      <category term="建站笔记" scheme="https://blog.xxwhite.com/tags/%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>一点微小的改动</title>
-    <link href="https://www.xxwhite.com/2018/alittlechange.html"/>
-    <id>https://www.xxwhite.com/2018/alittlechange.html</id>
+    <link href="https://blog.xxwhite.com/2018/alittlechange.html"/>
+    <id>https://blog.xxwhite.com/2018/alittlechange.html</id>
     <published>2018-01-29T13:02:01.000Z</published>
     <updated>2018-12-21T14:20:14.106Z</updated>
     
@@ -580,14 +580,14 @@
     </summary>
     
     
-      <category term="建站笔记" scheme="https://www.xxwhite.com/tags/%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/"/>
+      <category term="建站笔记" scheme="https://blog.xxwhite.com/tags/%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>强奸你的剪切板</title>
-    <link href="https://www.xxwhite.com/2018/Clipboard.html"/>
-    <id>https://www.xxwhite.com/2018/Clipboard.html</id>
+    <link href="https://blog.xxwhite.com/2018/Clipboard.html"/>
+    <id>https://blog.xxwhite.com/2018/Clipboard.html</id>
     <published>2018-01-27T07:43:35.000Z</published>
     <updated>2019-02-09T03:05:28.074Z</updated>
     
@@ -600,14 +600,14 @@
     </summary>
     
     
-      <category term="涨姿势" scheme="https://www.xxwhite.com/tags/%E6%B6%A8%E5%A7%BF%E5%8A%BF/"/>
+      <category term="涨姿势" scheme="https://blog.xxwhite.com/tags/%E6%B6%A8%E5%A7%BF%E5%8A%BF/"/>
     
   </entry>
   
   <entry>
     <title>炎黄幼儿园</title>
-    <link href="https://www.xxwhite.com/2018/YHKindergarten.html"/>
-    <id>https://www.xxwhite.com/2018/YHKindergarten.html</id>
+    <link href="https://blog.xxwhite.com/2018/YHKindergarten.html"/>
+    <id>https://blog.xxwhite.com/2018/YHKindergarten.html</id>
     <published>2018-01-21T14:54:58.000Z</published>
     <updated>2018-12-21T14:20:14.105Z</updated>
     
@@ -620,16 +620,16 @@
     </summary>
     
     
-      <category term="搞机" scheme="https://www.xxwhite.com/tags/%E6%90%9E%E6%9C%BA/"/>
+      <category term="搞机" scheme="https://blog.xxwhite.com/tags/%E6%90%9E%E6%9C%BA/"/>
     
-      <category term="炎黄幼儿园" scheme="https://www.xxwhite.com/tags/%E7%82%8E%E9%BB%84%E5%B9%BC%E5%84%BF%E5%9B%AD/"/>
+      <category term="炎黄幼儿园" scheme="https://blog.xxwhite.com/tags/%E7%82%8E%E9%BB%84%E5%B9%BC%E5%84%BF%E5%9B%AD/"/>
     
   </entry>
   
   <entry>
     <title>一个页面跳转的小工具</title>
-    <link href="https://www.xxwhite.com/2018/PanHtml.html"/>
-    <id>https://www.xxwhite.com/2018/PanHtml.html</id>
+    <link href="https://blog.xxwhite.com/2018/PanHtml.html"/>
+    <id>https://blog.xxwhite.com/2018/PanHtml.html</id>
     <published>2018-01-21T06:56:43.000Z</published>
     <updated>2018-12-21T14:20:14.104Z</updated>
     
@@ -643,16 +643,16 @@
     </summary>
     
     
-      <category term="建站笔记" scheme="https://www.xxwhite.com/tags/%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/"/>
+      <category term="建站笔记" scheme="https://blog.xxwhite.com/tags/%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="小工具" scheme="https://www.xxwhite.com/tags/%E5%B0%8F%E5%B7%A5%E5%85%B7/"/>
+      <category term="小工具" scheme="https://blog.xxwhite.com/tags/%E5%B0%8F%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   
   <entry>
     <title>关于Hexo的一些小问题</title>
-    <link href="https://www.xxwhite.com/2018/HexoKeng.html"/>
-    <id>https://www.xxwhite.com/2018/HexoKeng.html</id>
+    <link href="https://blog.xxwhite.com/2018/HexoKeng.html"/>
+    <id>https://blog.xxwhite.com/2018/HexoKeng.html</id>
     <published>2018-01-20T04:11:27.000Z</published>
     <updated>2018-12-21T14:20:14.102Z</updated>
     
@@ -665,16 +665,16 @@
     </summary>
     
     
-      <category term="建站笔记" scheme="https://www.xxwhite.com/tags/%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/"/>
+      <category term="建站笔记" scheme="https://blog.xxwhite.com/tags/%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="涨姿势" scheme="https://www.xxwhite.com/tags/%E6%B6%A8%E5%A7%BF%E5%8A%BF/"/>
+      <category term="涨姿势" scheme="https://blog.xxwhite.com/tags/%E6%B6%A8%E5%A7%BF%E5%8A%BF/"/>
     
   </entry>
   
   <entry>
     <title>如何优雅的将DWG图纸打印成为PDF文件</title>
-    <link href="https://www.xxwhite.com/2018/DwgToPdf.html"/>
-    <id>https://www.xxwhite.com/2018/DwgToPdf.html</id>
+    <link href="https://blog.xxwhite.com/2018/DwgToPdf.html"/>
+    <id>https://blog.xxwhite.com/2018/DwgToPdf.html</id>
     <published>2018-01-15T07:36:21.000Z</published>
     <updated>2018-12-21T14:20:14.100Z</updated>
     
@@ -687,14 +687,14 @@
     </summary>
     
     
-      <category term="涨姿势" scheme="https://www.xxwhite.com/tags/%E6%B6%A8%E5%A7%BF%E5%8A%BF/"/>
+      <category term="涨姿势" scheme="https://blog.xxwhite.com/tags/%E6%B6%A8%E5%A7%BF%E5%8A%BF/"/>
     
   </entry>
   
   <entry>
     <title>50年后要看的文章</title>
-    <link href="https://www.xxwhite.com/2018/50YearsLater.html"/>
-    <id>https://www.xxwhite.com/2018/50YearsLater.html</id>
+    <link href="https://blog.xxwhite.com/2018/50YearsLater.html"/>
+    <id>https://blog.xxwhite.com/2018/50YearsLater.html</id>
     <published>2018-01-13T09:30:07.000Z</published>
     <updated>2018-12-21T14:20:14.097Z</updated>
     
@@ -707,14 +707,14 @@
     </summary>
     
     
-      <category term="随便水水" scheme="https://www.xxwhite.com/tags/%E9%9A%8F%E4%BE%BF%E6%B0%B4%E6%B0%B4/"/>
+      <category term="随便水水" scheme="https://blog.xxwhite.com/tags/%E9%9A%8F%E4%BE%BF%E6%B0%B4%E6%B0%B4/"/>
     
   </entry>
   
   <entry>
     <title>使用JetBrains Rider作为Unity的IDE</title>
-    <link href="https://www.xxwhite.com/2018/UseJB.html"/>
-    <id>https://www.xxwhite.com/2018/UseJB.html</id>
+    <link href="https://blog.xxwhite.com/2018/UseJB.html"/>
+    <id>https://blog.xxwhite.com/2018/UseJB.html</id>
     <published>2018-01-10T16:10:27.000Z</published>
     <updated>2019-02-02T13:57:34.817Z</updated>
     
@@ -730,14 +730,14 @@
     </summary>
     
     
-      <category term="Unity" scheme="https://www.xxwhite.com/tags/Unity/"/>
+      <category term="Unity" scheme="https://blog.xxwhite.com/tags/Unity/"/>
     
   </entry>
   
   <entry>
     <title>一个很简单的视频，要经过哪些步骤</title>
-    <link href="https://www.xxwhite.com/2018/Clipvideos.html"/>
-    <id>https://www.xxwhite.com/2018/Clipvideos.html</id>
+    <link href="https://blog.xxwhite.com/2018/Clipvideos.html"/>
+    <id>https://blog.xxwhite.com/2018/Clipvideos.html</id>
     <published>2018-01-01T05:25:58.000Z</published>
     <updated>2018-12-21T14:20:14.099Z</updated>
     
@@ -750,7 +750,7 @@
     </summary>
     
     
-      <category term="随便水水" scheme="https://www.xxwhite.com/tags/%E9%9A%8F%E4%BE%BF%E6%B0%B4%E6%B0%B4/"/>
+      <category term="随便水水" scheme="https://blog.xxwhite.com/tags/%E9%9A%8F%E4%BE%BF%E6%B0%B4%E6%B0%B4/"/>
     
   </entry>
   
