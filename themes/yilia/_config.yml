@@ -137,7 +137,7 @@ slider:
   showTags: false
 
 # MarkDown文件下载地址,如：http://md.xxwhite.com
-mdhost: 'https://raw.githubusercontent.com/MonoLogueChi/www.xxwhite.com/master/source/_posts'
+mdhost: 'https://raw.githubusercontent.com/MonoLogueChi/blog.xxwhite.com/master/source/_posts'
 
 #pangu.js，中英文混排优化
 pangu: true
@@ -153,7 +153,7 @@ smart_menu:
   aboutme: '关于本站'
 
 friends:
-  叉叉白: 'https://www.xxwhite.com/'
+  叉叉白: 'https://blog.xxwhite.com/'
   大姐姐的博客Minemine: 'https://minemine.cc/'
   酷安基佬: 'http://socoolapk.top/'
   Se7en: 'https://www.se7ensec.cn/'
