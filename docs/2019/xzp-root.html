@@ -205,7 +205,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <script>var meting_api='https://sm.sm9.top/api.php?server=:server&type=:type&id=:id&r=:r'</script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><p>没有root和xp的生活已经有一个多月了，也顺利升级到了9.0，临近春节，打算把root和xp都给搞回来，在这记录一下过程，算是给其他朋友一点参考吧。</p>
+        <p>没有root和xp的生活已经有一个多月了，也顺利升级到了9.0，临近春节，打算把root和xp都给搞回来，在这记录一下过程，算是给其他朋友一点参考吧。</p>
 <a id="more"></a>
 <p>本教程仅针对9.0设备，其他版本的看看就好，没有这么麻烦的。</p>
 <h2 id="推荐"><a class="markdownIt-Anchor" href="#推荐"></a> 推荐</h2>
@@ -429,6 +429,7 @@
     var notify = false == true ? true : false;
     var verify = false == true ? true : false;
     var visitor = true == true ? true : false;
+    var recordIP = true == true ? true : false;
     loadScript('https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js',function(){
     loadScript('https://cdn.jsdelivr.net/npm/leancloud-storage/dist/av-min.js',function(){
         new Valine({
@@ -436,14 +437,15 @@
             el: '#vcomment',
             notify: notify,
             verify: verify,
-            app_id: 'BOnDPDiz9EeoGAC11JdnV9mw-gzGzoHsz',
-            app_key: 'gNFFgOahNl9DGsyX1WearaYO',
+            appId: 'BOnDPDiz9EeoGAC11JdnV9mw-gzGzoHsz',
+            appKey: 'gNFFgOahNl9DGsyX1WearaYO',
             placeholder: '友情提醒，留下正确的邮箱地址可以第一时间获取评论反馈',
             avatar: '',
             avatar_cdn: 'https://sdn.geekzu.org/avatar/',
             pageSize: 12,
             path: '/2019/xzp-root.html',
-            visitor: visitor
+            visitor: visitor,
+            recordIP: recordIP
         });
         if(window.location.hash){
           var checkExist = setInterval(function() {
@@ -559,11 +561,11 @@ loadScript('https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js',functi
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">搞机</a>
+                <a href="javascript:void(0)" class="js-tag color5">建站笔记</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">建站笔记</a>
+                <a href="javascript:void(0)" class="js-tag color3">搞机</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -603,15 +605,15 @@ loadScript('https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js',functi
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">dotnet</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">服务器</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">个人电脑</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">dotnet</a>
               </li>
             
             <div class="clearfix"></div>

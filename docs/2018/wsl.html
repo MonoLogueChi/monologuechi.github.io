@@ -203,7 +203,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <script>var meting_api='https://sm.sm9.top/api.php?server=:server&type=:type&id=:id&r=:r'</script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><p>最近想要开发一个新项目，想顺便体验一下WSL，然后百度看了一下相关的东西，结合自己的实践，简单总结了一下。</p>
+        <p>最近想要开发一个新项目，想顺便体验一下WSL，然后百度看了一下相关的东西，结合自己的实践，简单总结了一下。</p>
 <a id="more"></a>
 <h2 id="开启wsl"><a class="markdownIt-Anchor" href="#开启wsl"></a> 开启WSL</h2>
 <p>首先需要Win10 1709级以上版本，电脑配置不能太差，最起码也要比我这个强吧（配置太差了跑起来体验也不咋样）<br>
@@ -425,6 +425,7 @@ i5-3320M，12G ddr3内存（ddr3+ddr3l混装，这电脑兼容性真特么强）
     var notify = false == true ? true : false;
     var verify = false == true ? true : false;
     var visitor = true == true ? true : false;
+    var recordIP = true == true ? true : false;
     loadScript('https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js',function(){
     loadScript('https://cdn.jsdelivr.net/npm/leancloud-storage/dist/av-min.js',function(){
         new Valine({
@@ -432,14 +433,15 @@ i5-3320M，12G ddr3内存（ddr3+ddr3l混装，这电脑兼容性真特么强）
             el: '#vcomment',
             notify: notify,
             verify: verify,
-            app_id: 'BOnDPDiz9EeoGAC11JdnV9mw-gzGzoHsz',
-            app_key: 'gNFFgOahNl9DGsyX1WearaYO',
+            appId: 'BOnDPDiz9EeoGAC11JdnV9mw-gzGzoHsz',
+            appKey: 'gNFFgOahNl9DGsyX1WearaYO',
             placeholder: '友情提醒，留下正确的邮箱地址可以第一时间获取评论反馈',
             avatar: '',
             avatar_cdn: 'https://sdn.geekzu.org/avatar/',
             pageSize: 12,
             path: '/2018/wsl.html',
-            visitor: visitor
+            visitor: visitor,
+            recordIP: recordIP
         });
         if(window.location.hash){
           var checkExist = setInterval(function() {
@@ -555,11 +557,11 @@ loadScript('https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js',functi
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">搞机</a>
+                <a href="javascript:void(0)" class="js-tag color5">建站笔记</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">建站笔记</a>
+                <a href="javascript:void(0)" class="js-tag color3">搞机</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -599,15 +601,15 @@ loadScript('https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js',functi
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">dotnet</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">服务器</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">个人电脑</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">dotnet</a>
               </li>
             
             <div class="clearfix"></div>

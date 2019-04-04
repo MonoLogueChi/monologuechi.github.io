@@ -199,7 +199,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <script>var meting_api='https://sm.sm9.top/api.php?server=:server&type=:type&id=:id&r=:r'</script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><p>昨天给博客加了一个下载MarkDown文件的功能，原本是很简单的一件事，但是中间涉及到了很多麻烦东西，所以就决定简单记录以下。</p>
+        <p>昨天给博客加了一个下载MarkDown文件的功能，原本是很简单的一件事，但是中间涉及到了很多麻烦东西，所以就决定简单记录以下。</p>
 <a id="more"></a>
 <h2 id="起因"><a class="markdownIt-Anchor" href="#起因"></a> 起因</h2>
 <p>这件事的起因是前两天我写的一篇文章意外火了一遍，引来了一大波PV，又有很多人转了这篇文章，还有人问我要MarkDown源文件。受到<a href="https://imququ.com/post/about.html" target="_blank" rel="noopener">Jerry Qu的小站</a>的启发，决定做一个MarkDown文件下载的功能。</p>
@@ -389,6 +389,7 @@
     var notify = false == true ? true : false;
     var verify = false == true ? true : false;
     var visitor = true == true ? true : false;
+    var recordIP = true == true ? true : false;
     loadScript('https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js',function(){
     loadScript('https://cdn.jsdelivr.net/npm/leancloud-storage/dist/av-min.js',function(){
         new Valine({
@@ -396,14 +397,15 @@
             el: '#vcomment',
             notify: notify,
             verify: verify,
-            app_id: 'BOnDPDiz9EeoGAC11JdnV9mw-gzGzoHsz',
-            app_key: 'gNFFgOahNl9DGsyX1WearaYO',
+            appId: 'BOnDPDiz9EeoGAC11JdnV9mw-gzGzoHsz',
+            appKey: 'gNFFgOahNl9DGsyX1WearaYO',
             placeholder: '友情提醒，留下正确的邮箱地址可以第一时间获取评论反馈',
             avatar: '',
             avatar_cdn: 'https://sdn.geekzu.org/avatar/',
             pageSize: 12,
             path: '/2018/add-download-markdown.html',
-            visitor: visitor
+            visitor: visitor,
+            recordIP: recordIP
         });
         if(window.location.hash){
           var checkExist = setInterval(function() {
@@ -519,11 +521,11 @@ loadScript('https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js',functi
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">搞机</a>
+                <a href="javascript:void(0)" class="js-tag color5">建站笔记</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">建站笔记</a>
+                <a href="javascript:void(0)" class="js-tag color3">搞机</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -563,15 +565,15 @@ loadScript('https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js',functi
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">dotnet</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">服务器</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">个人电脑</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">dotnet</a>
               </li>
             
             <div class="clearfix"></div>

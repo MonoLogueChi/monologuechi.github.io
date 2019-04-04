@@ -208,7 +208,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <script>var meting_api='https://sm.sm9.top/api.php?server=:server&type=:type&id=:id&r=:r'</script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><p>回家之后麻麻就一直说要我捣鼓捣鼓电脑，没办法，只能硬着头皮上了。顺便自己做了两个精简系统，简单的把制作过程分享一下。</p>
+        <p>回家之后麻麻就一直说要我捣鼓捣鼓电脑，没办法，只能硬着头皮上了。顺便自己做了两个精简系统，简单的把制作过程分享一下。</p>
 <a id="more"></a>
 <h2 id="工具"><a class="markdownIt-Anchor" href="#工具"></a> 工具</h2>
 <p>本文使用的是非常经典的方法，这种方法在百度上随便一搜就可以搜到。</p>
@@ -412,6 +412,7 @@
     var notify = false == true ? true : false;
     var verify = false == true ? true : false;
     var visitor = true == true ? true : false;
+    var recordIP = true == true ? true : false;
     loadScript('https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js',function(){
     loadScript('https://cdn.jsdelivr.net/npm/leancloud-storage/dist/av-min.js',function(){
         new Valine({
@@ -419,14 +420,15 @@
             el: '#vcomment',
             notify: notify,
             verify: verify,
-            app_id: 'BOnDPDiz9EeoGAC11JdnV9mw-gzGzoHsz',
-            app_key: 'gNFFgOahNl9DGsyX1WearaYO',
+            appId: 'BOnDPDiz9EeoGAC11JdnV9mw-gzGzoHsz',
+            appKey: 'gNFFgOahNl9DGsyX1WearaYO',
             placeholder: '友情提醒，留下正确的邮箱地址可以第一时间获取评论反馈',
             avatar: '',
             avatar_cdn: 'https://sdn.geekzu.org/avatar/',
             pageSize: 12,
             path: '/2018/simplify-windows.html',
-            visitor: visitor
+            visitor: visitor,
+            recordIP: recordIP
         });
         if(window.location.hash){
           var checkExist = setInterval(function() {
@@ -542,11 +544,11 @@ loadScript('https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js',functi
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">搞机</a>
+                <a href="javascript:void(0)" class="js-tag color5">建站笔记</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">建站笔记</a>
+                <a href="javascript:void(0)" class="js-tag color3">搞机</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -586,15 +588,15 @@ loadScript('https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js',functi
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">dotnet</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">服务器</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">个人电脑</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">dotnet</a>
               </li>
             
             <div class="clearfix"></div>

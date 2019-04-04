@@ -202,7 +202,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <script>var meting_api='https://sm.sm9.top/api.php?server=:server&type=:type&id=:id&r=:r'</script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><p>推荐几个不错的小工具，反正本人用着感觉不错。</p>
+        <p>推荐几个不错的小工具，反正本人用着感觉不错。</p>
 <a id="more"></a>
 <h2 id="翻译软件"><a class="markdownIt-Anchor" href="#翻译软件"></a> 翻译软件</h2>
 <p>首先推荐几个翻译软件，首先是桌面端的。</p>
@@ -216,7 +216,7 @@
 <h3 id="谷歌翻译fooview"><a class="markdownIt-Anchor" href="#谷歌翻译fooview"></a> 谷歌翻译+fooView</h3>
 <p>安卓手机上的翻译神器组合，如果要再加一个的话，那就把Chrome加上吧，网页全文翻译还是加上Chrome最好用。</p>
 <p>翻译是Google翻译最好用，fooView可以用来取词和OCR，放个视频简单介绍一下</p>
-<div id="dplayer3" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer3"),"loop":true,"screenshot":true,"video":{"url":"https://dl.sm9.top/Video/2018/%E6%8E%A8%E8%8D%90%E5%B0%8F%E5%B7%A5%E5%85%B7.mp4"},"danmaku":{"id":"3794E7DE856BF55BD6EA05A8A0694B86","api":"https://api.prprpr.me/dplayer/"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script> 
+<div id="dplayer4" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer4"),"loop":true,"screenshot":true,"video":{"url":"https://dl.sm9.top/Video/2018/%E6%8E%A8%E8%8D%90%E5%B0%8F%E5%B7%A5%E5%85%B7.mp4"},"danmaku":{"id":"3794E7DE856BF55BD6EA05A8A0694B86","api":"https://api.prprpr.me/dplayer/"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script> 
 <h2 id="截屏软件"><a class="markdownIt-Anchor" href="#截屏软件"></a> 截屏软件</h2>
 <h3 id="snipaste"><a class="markdownIt-Anchor" href="#snipaste"></a> Snipaste</h3>
 <p>桌面软件，最大的特点是截图+贴图，很好用的一个生产力工具，虽然功能不多，但是很专一功能很强，非常推荐。</p>
@@ -428,6 +428,7 @@
     var notify = false == true ? true : false;
     var verify = false == true ? true : false;
     var visitor = true == true ? true : false;
+    var recordIP = true == true ? true : false;
     loadScript('https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js',function(){
     loadScript('https://cdn.jsdelivr.net/npm/leancloud-storage/dist/av-min.js',function(){
         new Valine({
@@ -435,14 +436,15 @@
             el: '#vcomment',
             notify: notify,
             verify: verify,
-            app_id: 'BOnDPDiz9EeoGAC11JdnV9mw-gzGzoHsz',
-            app_key: 'gNFFgOahNl9DGsyX1WearaYO',
+            appId: 'BOnDPDiz9EeoGAC11JdnV9mw-gzGzoHsz',
+            appKey: 'gNFFgOahNl9DGsyX1WearaYO',
             placeholder: '友情提醒，留下正确的邮箱地址可以第一时间获取评论反馈',
             avatar: '',
             avatar_cdn: 'https://sdn.geekzu.org/avatar/',
             pageSize: 12,
             path: '/2018/recommended-tools.html',
-            visitor: visitor
+            visitor: visitor,
+            recordIP: recordIP
         });
         if(window.location.hash){
           var checkExist = setInterval(function() {
@@ -558,11 +560,11 @@ loadScript('https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js',functi
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">搞机</a>
+                <a href="javascript:void(0)" class="js-tag color5">建站笔记</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">建站笔记</a>
+                <a href="javascript:void(0)" class="js-tag color3">搞机</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -602,15 +604,15 @@ loadScript('https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js',functi
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">dotnet</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">服务器</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">个人电脑</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">dotnet</a>
               </li>
             
             <div class="clearfix"></div>
