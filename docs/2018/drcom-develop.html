@@ -201,7 +201,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>前一阵子弄了一个Drcom登陆客户端，用于登陆校园网，具体可以看<a href="https://www.xxwhite.com/2018/Drcom.html">中南大学联通校园网络第三方客户端</a>，这次简单说一下这个东西是怎么做出来的。</p>
+        <p>前一阵子弄了一个Drcom登陆客户端，用于登陆校园网，具体可以看<a href="https://www.xxwhite.com/2018/Drcom.html" target="_blank" rel="noopener">中南大学联通校园网络第三方客户端</a>，这次简单说一下这个东西是怎么做出来的。</p>
 <p>这也是我第二次写WPF程序，很多地方都是一边学习一边瞎搞的。</p>
 <a id="more"></a>
 <p>项目地址：<a href="https://github.com/MonoLogueChi/Drcom" target="_blank" rel="noopener">https://github.com/MonoLogueChi/Drcom</a></p>
@@ -271,7 +271,7 @@
 <h3 id="软件检查更新"><a class="markdownIt-Anchor" href="#软件检查更新"></a> 软件检查更新</h3>
 <figure class="highlight cs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">using</span> System;</span><br><span class="line"><span class="keyword">using</span> System.Reflection;</span><br><span class="line"><span class="keyword">using</span> System.Xml.Linq;</span><br><span class="line"></span><br><span class="line"><span class="keyword">namespace</span> <span class="title">Drcom.net</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">class</span> <span class="title">NewApp</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">string</span>[] <span class="title">IsNew</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>        &#123;</span><br><span class="line">            <span class="keyword">string</span> version = Assembly.GetExecutingAssembly().GetName().Version.ToString();</span><br><span class="line"></span><br><span class="line">            <span class="keyword">try</span></span><br><span class="line">            &#123;</span><br><span class="line">                <span class="keyword">string</span> versionxml = <span class="string">"http://v.xxwhite.com/version/Drcom.xml?t="</span> + DateTime.Now.ToFileTimeUtc().ToString();</span><br><span class="line">                XDocument oXDoc = XDocument.Load(versionxml);</span><br><span class="line">                XElement root = oXDoc.Root;</span><br><span class="line">                XElement lastversion = root.Element(<span class="string">"version"</span>);</span><br><span class="line">                XElement data = root.Element(<span class="string">"data"</span>);</span><br><span class="line"></span><br><span class="line">                <span class="keyword">string</span>[] versiondata = <span class="keyword">new</span> <span class="keyword">string</span>[<span class="number">3</span>] &#123; version, lastversion.Value, data.Value &#125;;</span><br><span class="line"></span><br><span class="line">                <span class="keyword">return</span> versiondata;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">catch</span> (Exception)</span><br><span class="line">            &#123;</span><br><span class="line">                <span class="keyword">return</span> (<span class="keyword">new</span> <span class="keyword">string</span>[<span class="number">3</span>] &#123; version, <span class="string">"未检测到最新版本"</span>, <span class="string">"未检测到更新时间"</span> &#125;);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <h2 id="写在后面的"><a class="markdownIt-Anchor" href="#写在后面的"></a> 写在后面的</h2>
-<p>至此，所有功能均已介绍完毕，有兴趣的同学可以接盘继续开发，项目地址在<a href="https://www.xxwhite.com/2018/Drcom.html">中南大学联通校园网络第三方客户端</a>中。</p>
+<p>至此，所有功能均已介绍完毕，有兴趣的同学可以接盘继续开发，项目地址在<a href="https://www.xxwhite.com/2018/Drcom.html" target="_blank" rel="noopener">中南大学联通校园网络第三方客户端</a>中。</p>
 <p>友情提示，修改密码功能其实实现也很简单，GitHub上已经找到有事项该功能的项目了，只要把IP改成自己的，剩下基本照抄就能实现了。</p>
 
       
@@ -575,11 +575,11 @@ loadScript('https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js',functi
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">建站笔记</a>
+                <a href="javascript:void(0)" class="js-tag color3">搞机</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">搞机</a>
+                <a href="javascript:void(0)" class="js-tag color5">建站笔记</a>
               </li>
              
               <li class="article-tag-list-item">
