@@ -8,19 +8,19 @@
   <link rel="dns-prefetch" href="https://blog.xxwhite.com">
   <title>Unity WebGL平台开发遇到的坑 | 叉叉白</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="var meting_api=&apos;https://sm.sm9.top/api.php?server=:server&amp;type=:type&amp;id=:id&amp;r=:r&apos;最近在用Unity做一个 WebGL 平台的项目，开发过程中遇到了各种各样的坑，这里简单记录一下，以免以后再踩。  WebRequest请求（异步的问题） 首先是Http请求的问题，我最开始想的是，直接用C#里的写法，编辑器里测试毫无问题">
+  <meta name="description" content="最近在用Unity做一个 WebGL 平台的项目，开发过程中遇到了各种各样的坑，这里简单记录一下，以免以后再踩。">
 <meta name="keywords" content="Unity, WebGL, JS数据交互, C#">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Unity WebGL平台开发遇到的坑">
 <meta property="og:url" content="https://blog.xxwhite.com/2019/unity-webgl-keng.html">
 <meta property="og:site_name" content="叉叉白">
-<meta property="og:description" content="var meting_api=&apos;https://sm.sm9.top/api.php?server=:server&amp;type=:type&amp;id=:id&amp;r=:r&apos;最近在用Unity做一个 WebGL 平台的项目，开发过程中遇到了各种各样的坑，这里简单记录一下，以免以后再踩。  WebRequest请求（异步的问题） 首先是Http请求的问题，我最开始想的是，直接用C#里的写法，编辑器里测试毫无问题">
+<meta property="og:description" content="最近在用Unity做一个 WebGL 平台的项目，开发过程中遇到了各种各样的坑，这里简单记录一下，以免以后再踩。">
 <meta property="og:locale" content="Zh-cn">
 <meta property="og:image" content="https://s2.ax1x.com/2019/04/29/E1c9i9.png">
-<meta property="og:updated_time" content="2019-04-29T15:05:55.160Z">
+<meta property="og:updated_time" content="2019-04-29T15:49:56.210Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Unity WebGL平台开发遇到的坑">
-<meta name="twitter:description" content="var meting_api=&apos;https://sm.sm9.top/api.php?server=:server&amp;type=:type&amp;id=:id&amp;r=:r&apos;最近在用Unity做一个 WebGL 平台的项目，开发过程中遇到了各种各样的坑，这里简单记录一下，以免以后再踩。  WebRequest请求（异步的问题） 首先是Http请求的问题，我最开始想的是，直接用C#里的写法，编辑器里测试毫无问题">
+<meta name="twitter:description" content="最近在用Unity做一个 WebGL 平台的项目，开发过程中遇到了各种各样的坑，这里简单记录一下，以免以后再踩。">
 <meta name="twitter:image" content="https://s2.ax1x.com/2019/04/29/E1c9i9.png">
   
     <link rel="alternative" href="/atom.xml" title="叉叉白" type="application/atom+xml">
@@ -202,6 +202,7 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p>最近在用Unity做一个 WebGL 平台的项目，开发过程中遇到了各种各样的坑，这里简单记录一下，以免以后再踩。</p>
+<a id="more"></a>
 <h2 id="webrequest请求异步的问题"><a class="markdownIt-Anchor" href="#webrequest请求异步的问题"></a> WebRequest请求（异步的问题）</h2>
 <p>首先是Http请求的问题，我最开始想的是，直接用C#里的写法，编辑器里测试毫无问题，但是一打包出来就不行，会报出 <code>SystemException: Thread creation failed.</code> 的错误，无奈只能用Unity自己的 <code>UnityWebRequest</code>。</p>
 <p>错误的示范0：</p>

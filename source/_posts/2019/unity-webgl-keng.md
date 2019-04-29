@@ -9,6 +9,8 @@ comments: true
 
 最近在用Unity做一个 WebGL 平台的项目，开发过程中遇到了各种各样的坑，这里简单记录一下，以免以后再踩。
 
+<!-- more -->
+
 ## WebRequest请求（异步的问题）
 
 首先是Http请求的问题，我最开始想的是，直接用C#里的写法，编辑器里测试毫无问题，但是一打包出来就不行，会报出 `SystemException: Thread creation failed.` 的错误，无奈只能用Unity自己的 `UnityWebRequest`。
