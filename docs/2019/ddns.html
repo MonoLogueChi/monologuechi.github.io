@@ -6,19 +6,22 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="https://blog.xxwhite.com">
-  <title>Tag: 服务器 | 叉叉白</title>
+  <title>在家搭建网站-DDNS | 叉叉白</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="一个小白搞机的记事本">
-<meta name="keywords" content="叉叉白 搞机 小白 安卓 Xposed Magisk 刷机 救砖 Unity Hexo 建站">
-<meta property="og:type" content="website">
-<meta property="og:title" content="叉叉白">
-<meta property="og:url" content="https://blog.xxwhite.com/tags/服务器/index.html">
+  <meta name="description" content="上次说了新买了一台小JJ，并且在上面搭建了个人网站，但是生命不息，折腾不止。">
+<meta name="keywords" content="DDNS, CloudXNS, 个人网站搭建">
+<meta property="og:type" content="article">
+<meta property="og:title" content="在家搭建网站-DDNS">
+<meta property="og:url" content="https://blog.xxwhite.com/2019/ddns.html">
 <meta property="og:site_name" content="叉叉白">
-<meta property="og:description" content="一个小白搞机的记事本">
+<meta property="og:description" content="上次说了新买了一台小JJ，并且在上面搭建了个人网站，但是生命不息，折腾不止。">
 <meta property="og:locale" content="Zh-cn">
+<meta property="og:image" content="https://s2.ax1x.com/2019/04/29/E3bH9x.png">
+<meta property="og:updated_time" content="2019-04-29T15:02:40.659Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="叉叉白">
-<meta name="twitter:description" content="一个小白搞机的记事本">
+<meta name="twitter:title" content="在家搭建网站-DDNS">
+<meta name="twitter:description" content="上次说了新买了一台小JJ，并且在上面搭建了个人网站，但是生命不息，折腾不止。">
+<meta name="twitter:image" content="https://s2.ax1x.com/2019/04/29/E3bH9x.png">
   
     <link rel="alternative" href="/atom.xml" title="叉叉白" type="application/atom+xml">
   
@@ -178,64 +181,245 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-2019/ddns" class="article article-type-post " itemscope="" itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2018" class="archive-year">2018</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2018/personal-server.html" class="archive-article-date">
-  	<time datetime="2018-09-22T12:40:04.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-09-22</time>
-</a>
-        </div>
-    	 
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/personal-server.html">二手洋垃圾改造</a>
+    <h1 class="article-title" itemprop="name">
+      在家搭建网站-DDNS
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
+        
+        <a href="/2019/ddns.html" class="archive-article-date">
+  	<time datetime="2019-04-14T10:48:35.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-04-14</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>上次说了新买了一台小JJ，并且在上面搭建了个人网站，但是生命不息，折腾不止。</p>
+<a id="more"></a>
+<p>利用frp做内网穿透，确实是可以完成网站的搭建，但是frp的流量是要全部从服务器走的，速度受限，延时也比较高，所以一直想办法要改善一下，于是便想到了另一种解决方案——DDNS。</p>
+<p>DDNS的先决条件是，你要有公网IP，如果没用公网IP的话，就别想了，乖乖的用内网穿透吧。</p>
+<h2 id="ddns"><a class="markdownIt-Anchor" href="#ddns"></a> DDNS</h2>
+<p>这次DDNS是使用了CloudXNS的API，其他DNS服务器应该也有类似的API，感兴趣的话可以自己去看一下。</p>
+<p>DDNS脚本我是直接在GitHub上搜的 <a href="https://github.com/kkkgo/CloudXNS-DDNS-with-BashShell" target="_blank" rel="noopener">https://github.com/kkkgo/CloudXNS-DDNS-with-BashShell</a>，具体使用方法我简单示例一下。</p>
+<p>首先是将域名DNS服务器改为CloudXNS（CloudXNS需要实名，介意请使用其他DNS服务器），具体教程可以看 <a href="https://www.cloudxns.net/Support/detail/id/208.html" target="_blank" rel="noopener">帮助</a>。</p>
+<p>接入之后，我们先创建一条A记录解析，比如 <code>ddns.xyzabc.com</code>，然后再<a href="https://www.cloudxns.net/AccountManage/apimanage.html" target="_blank" rel="noopener">API管理</a>页面开启API，注意不用设置白名单。</p>
+<p>我用的是宝塔面板，所以设置定时任务就非常简单了，把GitHub上的脚本复制到本地记事本里，然后改一下前面的变量，CHECKURL修改完了之后记得验证一下是否有效。本地搞完了，复制到宝塔的定时任务里，设置定时时间一分钟，然后立即执行一次，去CloudXNS检查一下，是不是IP已经解析过去了。</p>
+<p>有了这条A记录之后，后面的就可以使用CNAME解析了。</p>
+<h2 id="端口映射"><a class="markdownIt-Anchor" href="#端口映射"></a> 端口映射</h2>
+<p>这个需要路由器支持，比如说我现在用的磊科的路由器，以前老板留下的。需要把外部的端口映射到NAT内网的某个IP上的某个端口</p>
+<p><img src="https://s2.ax1x.com/2019/04/29/E3bH9x.png" alt="端口映射"></p>
+<p>这样，从外网的访问8080端口，就可访问到网站上的80端口。</p>
+<h2 id="cdn"><a class="markdownIt-Anchor" href="#cdn"></a> CDN</h2>
+<p>做完上面的就可以了，但是我为什么还要套一层CDN呢？因为我想要80端口和443端口。套CDN也很简单，和其他一样，回源地址填写你DNS解析A记录的域名，端口填写上面端口映射设置的外网域名就可以了，例如 <code>ddns.xyzabc.com:8083</code>，协议选择对应的协议。</p>
+<p>目前我的小JJ上已经搭建了好多服务了，三个网站，一个webdav网站，视频转码，直播推流都放在了上面，小JJ总感觉不太够用，打算过几个月再换一台大JJ。</p>
+
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>请作者吃辣条<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="https://oss.xxwhite.com/static/alipay.png">
+                      <span class="reward-type">支付宝</span>
+                    </div>
+                    
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="https://oss.xxwhite.com/static/wechatpay.png">
+                      <span class="reward-type">微信</span>
+                    </div>
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+            
+      
+        <div> 
+          <ul class="post-copyright">
+            <li>
+              <strong>本文作者：</strong>
+              MonoLogueChi
+            </li>
+            <li>
+              <strong>本文链接：</strong>
+              <a href="https://blog.xxwhite.com/2019/ddns.html" title="叉叉白">https://blog.xxwhite.com/2019/ddns.html</a>
+            </li>
+            <li>
+              <strong>版权声明： </strong>
+              本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明出处！
+            </li>
+          </ul>
+        </div>
+      
+
+    </div>
+    <div class="article-info article-info-index">
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">服务器</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">建站笔记</a>
         		</li>
       		 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">个人电脑</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">随便水水</a>
         		</li>
       		
 		</ul>
 	</div>
 
-          
+      
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
+  
+<nav id="article-nav">
+  
+    <a href="/2019/unity-webgl-keng.html" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          Unity WebGL平台开发遇到的坑
+        
+      </div>
+    </a>
   
   
-    </div></section>
+    <a href="/2019/small-jj.html" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">又入手一台小JJ</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+  <br>
+      
+    <a onclick="mdpage()" target="_blank" style="cursor:pointer">获取文章MarkDown文件</a>
+  
+   
+  <span style="float:right;color:#0094d5" id="/2019/ddns.html" class="leancloud_visitors" data-flag-title="在家搭建网站-DDNS">
+      <span class="post-meta-item-text">本文阅读量 </span>
+      <span class="leancloud-visitors-count">8848</span>
+    </span>
+ 
+</nav>
+<script>
+  var mdhost = 'https://raw.githubusercontent.com/MonoLogueChi/blog.xxwhite.com/master/source/_posts';
+  var mdurl = '2019/ddns.html'.replace('.html', '.md');
+  function mdpage() {
+    window.open(mdhost + "/" + mdurl);
+  }
+</script>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#ddns"><span class="toc-number">1.</span> <span class="toc-text"> DDNS</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#端口映射"><span class="toc-number">2.</span> <span class="toc-text"> 端口映射</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#cdn"><span class="toc-number">3.</span> <span class="toc-text"> CDN</span></a></li></ol>
+                    </div>
+                </span>
+            </div>
+        </div>
+        
+    </div>
+</aside>
+
+
+
+  
+  
   
 
-    
+  
+
+  
+
+  
+  
+  
+    <section id="comments">
+      <div id="vcomment"></div>
+<script async>
+    var notify = false == true ? true : false;
+    var verify = false == true ? true : false;
+    var visitor = true == true ? true : false;
+    var recordIP = true == true ? true : false;
+    loadScript('https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js',function(){
+    loadScript('https://cdn.jsdelivr.net/npm/leancloud-storage/dist/av-min.js',function(){
+        new Valine({
+            av: AV,
+            el: '#vcomment',
+            notify: notify,
+            verify: verify,
+            appId: 'BOnDPDiz9EeoGAC11JdnV9mw-gzGzoHsz',
+            appKey: 'gNFFgOahNl9DGsyX1WearaYO',
+            placeholder: '友情提醒，留下正确的邮箱地址可以第一时间获取评论反馈',
+            avatar: '',
+            avatar_cdn: 'https://sdn.geekzu.org/avatar/',
+            pageSize: 12,
+            path: '/2019/ddns.html',
+            visitor: visitor,
+            recordIP: recordIP
+        });
+        if(window.location.hash){
+          var checkExist = setInterval(function() {
+            if (document.getElementById(window.location.hash.replace("#",""))) {
+              location.href = window.location.hash;
+              clearInterval(checkExist);
+            }
+          }, 250);
+        }
+    });
+    });
+</script>
+    </section>
+  
 
 
           </div>
@@ -263,9 +447,9 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
+		isPost: true,
 		isArchive: false,
-		isTag: true,
+		isTag: false,
 		isCategory: false,
 		open_in_new: false,
 		toc_hide_index: false,

@@ -7,7 +7,7 @@ keywords: Sakura Frp, 守护进程, PM2, Supervisor
 comments: true
 ---
 
-上个月花了购置了一台小jj用作服务器，简单记录了一下装配过程，正好清明节假干完两天的活，休息一天，就写一点出来。
+上个月花了点钱购置了一台小jj用作服务器，简单记录了一下装配过程，正好清明节假干完两天的活，休息一天，就写一点出来。
 
 <!-- more -->
 
@@ -54,7 +54,7 @@ comments: true
 
 怎么安装和使用，可以看完以前的文章[.net core 程序示例](/2018/run-dotnetcore.html)，这里简单说一下配置文件就可以了
 
-```
+```ini
 [program:frp]
 command=/www/frp/Sakura_frpc_linux_amd64 --su={用户名} --sp={密码} --sid={前面命令行启动时候的编号}
 user=root

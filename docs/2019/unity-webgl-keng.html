@@ -6,19 +6,22 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="https://blog.xxwhite.com">
-  <title>叉叉白</title>
+  <title>Unity WebGL平台开发遇到的坑 | 叉叉白</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="一个小白搞机的记事本">
-<meta name="keywords" content="叉叉白 搞机 小白 安卓 Xposed Magisk 刷机 救砖 Unity Hexo 建站">
-<meta property="og:type" content="website">
-<meta property="og:title" content="叉叉白">
-<meta property="og:url" content="https://blog.xxwhite.com/index.html">
+  <meta name="description" content="var meting_api=&apos;https://sm.sm9.top/api.php?server=:server&amp;type=:type&amp;id=:id&amp;r=:r&apos;最近在用Unity做一个 WebGL 平台的项目，开发过程中遇到了各种各样的坑，这里简单记录一下，以免以后再踩。  WebRequest请求（异步的问题） 首先是Http请求的问题，我最开始想的是，直接用C#里的写法，编辑器里测试毫无问题">
+<meta name="keywords" content="Unity, WebGL, JS数据交互, C#">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Unity WebGL平台开发遇到的坑">
+<meta property="og:url" content="https://blog.xxwhite.com/2019/unity-webgl-keng.html">
 <meta property="og:site_name" content="叉叉白">
-<meta property="og:description" content="一个小白搞机的记事本">
+<meta property="og:description" content="var meting_api=&apos;https://sm.sm9.top/api.php?server=:server&amp;type=:type&amp;id=:id&amp;r=:r&apos;最近在用Unity做一个 WebGL 平台的项目，开发过程中遇到了各种各样的坑，这里简单记录一下，以免以后再踩。  WebRequest请求（异步的问题） 首先是Http请求的问题，我最开始想的是，直接用C#里的写法，编辑器里测试毫无问题">
 <meta property="og:locale" content="Zh-cn">
+<meta property="og:image" content="https://s2.ax1x.com/2019/04/29/E1c9i9.png">
+<meta property="og:updated_time" content="2019-04-29T15:05:55.160Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="叉叉白">
-<meta name="twitter:description" content="一个小白搞机的记事本">
+<meta name="twitter:title" content="Unity WebGL平台开发遇到的坑">
+<meta name="twitter:description" content="var meting_api=&apos;https://sm.sm9.top/api.php?server=:server&amp;type=:type&amp;id=:id&amp;r=:r&apos;最近在用Unity做一个 WebGL 平台的项目，开发过程中遇到了各种各样的坑，这里简单记录一下，以免以后再踩。  WebRequest请求（异步的问题） 首先是Http请求的问题，我最开始想的是，直接用C#里的写法，编辑器里测试毫无问题">
+<meta name="twitter:image" content="https://s2.ax1x.com/2019/04/29/E1c9i9.png">
   
     <link rel="alternative" href="/atom.xml" title="叉叉白" type="application/atom+xml">
   
@@ -178,16 +181,14 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-    <article id="post-2019/unity-webgl-keng" class="article article-type-post  article-index" itemscope="" itemprop="blogPost">
+            <article id="post-2019/unity-webgl-keng" class="article article-type-post " itemscope="" itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/unity-webgl-keng.html">Unity WebGL平台开发遇到的坑</a>
+    <h1 class="article-title" itemprop="name">
+      Unity WebGL平台开发遇到的坑
     </h1>
   
 
@@ -265,7 +266,55 @@
       
 
       
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>请作者吃辣条<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="https://oss.xxwhite.com/static/alipay.png">
+                      <span class="reward-type">支付宝</span>
+                    </div>
+                    
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="https://oss.xxwhite.com/static/wechatpay.png">
+                      <span class="reward-type">微信</span>
+                    </div>
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
             
+      
+        <div> 
+          <ul class="post-copyright">
+            <li>
+              <strong>本文作者：</strong>
+              MonoLogueChi
+            </li>
+            <li>
+              <strong>本文链接：</strong>
+              <a href="https://blog.xxwhite.com/2019/unity-webgl-keng.html" title="叉叉白">https://blog.xxwhite.com/2019/unity-webgl-keng.html</a>
+            </li>
+            <li>
+              <strong>版权声明： </strong>
+              本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明出处！
+            </li>
+          </ul>
+        </div>
       
 
     </div>
@@ -286,16 +335,41 @@
       
 
       
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/unity-webgl-keng.html">展开全文 >></a>
-        </p>
-      
 
       
       <div class="clearfix"></div>
     </div>
   </div>
 </article>
+
+  
+<nav id="article-nav">
+  
+  
+    <a href="/2019/ddns.html" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">在家搭建网站-DDNS</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+  <br>
+      
+    <a onclick="mdpage()" target="_blank" style="cursor:pointer">获取文章MarkDown文件</a>
+  
+   
+  <span style="float:right;color:#0094d5" id="/2019/unity-webgl-keng.html" class="leancloud_visitors" data-flag-title="Unity WebGL平台开发遇到的坑">
+      <span class="post-meta-item-text">本文阅读量 </span>
+      <span class="leancloud-visitors-count">8848</span>
+    </span>
+ 
+</nav>
+<script>
+  var mdhost = 'https://raw.githubusercontent.com/MonoLogueChi/blog.xxwhite.com/master/source/_posts';
+  var mdurl = '2019/unity-webgl-keng.html'.replace('.html', '.md');
+  function mdpage() {
+    window.open(mdhost + "/" + mdurl);
+  }
+</script>
+
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -310,718 +384,71 @@
         </div>
         
         
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-2019/ddns" class="article article-type-post  article-index" itemscope="" itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/ddns.html">在家搭建网站-DDNS</a>
-    </h1>
-  
-
-        
-        <a href="/2019/ddns.html" class="archive-article-date">
-  	<time datetime="2019-04-14T10:48:35.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-04-14</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>上次说了新买了一台小JJ，并且在上面搭建了个人网站，但是生命不息，折腾不止。</p>
-        
-      
-
-      
-            
-      
-
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">建站笔记</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">随便水水</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/ddns.html">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#webrequest请求异步的问题"><span class="toc-number">1.</span> <span class="toc-text"> WebRequest请求（异步的问题）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#ssl证书"><span class="toc-number">2.</span> <span class="toc-text"> SSL证书</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#json"><span class="toc-number">3.</span> <span class="toc-text"> JSON</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#跨域"><span class="toc-number">4.</span> <span class="toc-text"> 跨域</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#ab包"><span class="toc-number">5.</span> <span class="toc-text"> AB包</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#音频"><span class="toc-number">6.</span> <span class="toc-text"> 音频</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#程序内与网页传参"><span class="toc-number">7.</span> <span class="toc-text"> 程序内与网页传参</span></a></li></ol>
+                    </div>
+                </span>
             </div>
         </div>
         
-        
     </div>
 </aside>
 
 
 
-
   
-    <article id="post-2019/small-jj" class="article article-type-post  article-index" itemscope="" itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/small-jj.html">又入手一台小JJ</a>
-    </h1>
   
 
-        
-        <a href="/2019/small-jj.html" class="archive-article-date">
-  	<time datetime="2019-04-07T08:30:09.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-04-07</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>上个月花了点钱购置了一台小jj用作服务器，简单记录了一下装配过程，正好清明节假干完两天的活，休息一天，就写一点出来。</p>
-        
-      
-
-      
-            
-      
-
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">建站笔记</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">随便水水</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/small-jj.html">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-2019/xzp-root" class="article article-type-post  article-index" itemscope="" itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/xzp-root.html">SONY XZP Root</a>
-    </h1>
   
 
-        
-        <a href="/2019/xzp-root.html" class="archive-article-date">
-  	<time datetime="2019-02-06T02:55:25.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-02-06</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>没有root和xp的生活已经有一个多月了，也顺利升级到了9.0，临近春节，打算把root和xp都给搞回来，在这记录一下过程，算是给其他朋友一点参考吧。</p>
-        
-      
-
-      
-            
-      
-
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">搞机</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/xzp-root.html">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
   
-    <article id="post-2019/your-own-yilia-2" class="article article-type-post  article-index" itemscope="" itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/your-own-yilia-2.html">自己动手修改完善yilia主题（下）</a>
-    </h1>
-  
-
-        
-        <a href="/2019/your-own-yilia-2.html" class="archive-article-date">
-  	<time datetime="2019-02-01T06:40:40.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-02-01</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>这一期咱们接着来说自定义Yilia主题的事。</p>
-        
-      
-
-      
-            
-      
-
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">建站笔记</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/your-own-yilia-2.html">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-2019/your-own-yilia-1" class="article article-type-post  article-index" itemscope="" itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/your-own-yilia-1.html">自己动手修改完善yilia主题（上）</a>
-    </h1>
-  
-
-        
-        <a href="/2019/your-own-yilia-1.html" class="archive-article-date">
-  	<time datetime="2019-01-26T05:49:23.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-01-26</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>自己动手修改Yilia主题，这有什么难的，简单修修模板，改改CSS？</p>
-        
-      
-
-      
-            
-      
-
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">建站笔记</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/your-own-yilia-1.html">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-2019/cpu-reduction-voltage" class="article article-type-post  article-index" itemscope="" itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/cpu-reduction-voltage.html">CPU降压降温方案</a>
-    </h1>
-  
-
-        
-        <a href="/2019/cpu-reduction-voltage.html" class="archive-article-date">
-  	<time datetime="2019-01-19T01:33:46.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-01-19</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>最近zuodie，把一颗i7-8700装到了笔记本上，结果两风扇散热根本不够看的，随便跑一跑x264，温度直接飙到90+（冬天90+），风扇嗷嗷的叫，再过一会就开始降频了。</p>
-        
-      
-
-      
-            
-      
-
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">随便水水</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/cpu-reduction-voltage.html">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-2019/pay-for-knowledge" class="article article-type-post  article-index" itemscope="" itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/pay-for-knowledge.html">为知识付费</a>
-    </h1>
-  
-
-        
-        <a href="/2019/pay-for-knowledge.html" class="archive-article-date">
-  	<time datetime="2019-01-05T04:08:07.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-01-05</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>昨天收了一个一百块钱的红包，感觉有点受之有愧。</p>
-        
-      
-
-      
-            
-      
-
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">随便水水</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/pay-for-knowledge.html">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-2018/unity-vs-debug" class="article article-type-post  article-index" itemscope="" itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/unity-vs-debug.html">Unity包管理和调试</a>
-    </h1>
-  
-
-        
-        <a href="/2018/unity-vs-debug.html" class="archive-article-date">
-  	<time datetime="2018-12-08T14:10:18.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-12-08</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>前面讲了怎么<a href="/2018/unity-vs-resharper.html">打造Unity最强IDE</a>，那么今天就来讲一下怎么用前面搭建好的环境快速开发。</p>
-        
-      
-
-      
-            
-      
-
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Unity</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2018/unity-vs-debug.html">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-2018/9x9" class="article article-type-post  article-index" itemscope="" itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/9x9.html">九九乘法表？</a>
-    </h1>
-  
-
-        
-        <a href="/2018/9x9.html" class="archive-article-date">
-  	<time datetime="2018-11-20T12:54:08.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-11-20</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>打印九九乘法表？这么低端的事我会做？</p>
-        
-      
-
-      
-            
-      
-
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">C#</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2018/9x9.html">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
 
   
   
-    <nav id="page-nav">
-      <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><span class="space">&hellip;</span><a class="page-number" href="/page/6/">6</a><a class="extend next" rel="next" href="/page/2/">Next &raquo;</a>
-    </nav>
+  
+    <section id="comments">
+      <div id="vcomment"></div>
+<script async>
+    var notify = false == true ? true : false;
+    var verify = false == true ? true : false;
+    var visitor = true == true ? true : false;
+    var recordIP = true == true ? true : false;
+    loadScript('https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js',function(){
+    loadScript('https://cdn.jsdelivr.net/npm/leancloud-storage/dist/av-min.js',function(){
+        new Valine({
+            av: AV,
+            el: '#vcomment',
+            notify: notify,
+            verify: verify,
+            appId: 'BOnDPDiz9EeoGAC11JdnV9mw-gzGzoHsz',
+            appKey: 'gNFFgOahNl9DGsyX1WearaYO',
+            placeholder: '友情提醒，留下正确的邮箱地址可以第一时间获取评论反馈',
+            avatar: '',
+            avatar_cdn: 'https://sdn.geekzu.org/avatar/',
+            pageSize: 12,
+            path: '/2019/unity-webgl-keng.html',
+            visitor: visitor,
+            recordIP: recordIP
+        });
+        if(window.location.hash){
+          var checkExist = setInterval(function() {
+            if (document.getElementById(window.location.hash.replace("#",""))) {
+              location.href = window.location.hash;
+              clearInterval(checkExist);
+            }
+          }, 250);
+        }
+    });
+    });
+</script>
+    </section>
   
 
 
@@ -1049,8 +476,8 @@
     <script>
 	var yiliaConfig = {
 		mathjax: false,
-		isHome: true,
-		isPost: false,
+		isHome: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
