@@ -76,8 +76,8 @@ toc_empty_wording: '目录，不存在的…'
 top: true
 
 # Miscellaneous
-#baidu_analytics: '893dcb25b87bcda2f682b3a6d5c537f7'
-#google_analytics: 'UA-113200574-1'
+baidu_analytics: '893dcb25b87bcda2f682b3a6d5c537f7'
+google_analytics: 'UA-113200574-1'
 favicon: 'https://oss.xxwhite.com/static/favicon.png'
 
 #你的头像url
