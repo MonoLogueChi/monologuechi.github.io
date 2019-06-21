@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.xxwhite.com/2018/FusionApp1.html</loc>
+    
+    <lastmod>2019-06-21T13:01:11.983Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.xxwhite.com/2018/KeyCastOW.html</loc>
+    
+    <lastmod>2019-06-21T12:59:30.353Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.xxwhite.com/2017/VideoTest.html</loc>
+    
+    <lastmod>2019-06-21T12:58:49.587Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.xxwhite.com/2019/unity-webgl-keng.html</loc>
     
     <lastmod>2019-05-01T06:01:15.379Z</lastmod>
@@ -26,13 +47,6 @@
     <loc>https://blog.xxwhite.com/2018/run-dotnetcore.html</loc>
     
     <lastmod>2019-04-07T09:49:32.893Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.xxwhite.com/2018/KeyCastOW.html</loc>
-    
-    <lastmod>2019-02-10T14:41:25.409Z</lastmod>
     
   </url>
   
@@ -107,14 +121,14 @@
   </url>
   
   <url>
-    <loc>https://blog.xxwhite.com/HelloWorld.html</loc>
+    <loc>https://blog.xxwhite.com/2018/wsl.html</loc>
     
     <lastmod>2018-12-21T14:20:14.115Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.xxwhite.com/2018/wsl.html</loc>
+    <loc>https://blog.xxwhite.com/HelloWorld.html</loc>
     
     <lastmod>2018-12-21T14:20:14.115Z</lastmod>
     
@@ -128,13 +142,6 @@
   </url>
   
   <url>
-    <loc>https://blog.xxwhite.com/2018/using-oneindex.html</loc>
-    
-    <lastmod>2018-12-21T14:20:14.113Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.xxwhite.com/2018/unity-vs-resharper.html</loc>
     
     <lastmod>2018-12-21T14:20:14.113Z</lastmod>
@@ -142,9 +149,9 @@
   </url>
   
   <url>
-    <loc>https://blog.xxwhite.com/2018/unity-vs-debug.html</loc>
+    <loc>https://blog.xxwhite.com/2018/using-oneindex.html</loc>
     
-    <lastmod>2018-12-21T14:20:14.112Z</lastmod>
+    <lastmod>2018-12-21T14:20:14.113Z</lastmod>
     
   </url>
   
@@ -156,14 +163,21 @@
   </url>
   
   <url>
-    <loc>https://blog.xxwhite.com/2018/recommended-tools.html</loc>
+    <loc>https://blog.xxwhite.com/2018/unity-vs-debug.html</loc>
+    
+    <lastmod>2018-12-21T14:20:14.112Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.xxwhite.com/2018/personal-server.html</loc>
     
     <lastmod>2018-12-21T14:20:14.110Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.xxwhite.com/2018/personal-server.html</loc>
+    <loc>https://blog.xxwhite.com/2018/recommended-tools.html</loc>
     
     <lastmod>2018-12-21T14:20:14.110Z</lastmod>
     
@@ -177,14 +191,14 @@
   </url>
   
   <url>
-    <loc>https://blog.xxwhite.com/2018/image-format.html</loc>
+    <loc>https://blog.xxwhite.com/2018/oneplus5-change-screen.html</loc>
     
     <lastmod>2018-12-21T14:20:14.108Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.xxwhite.com/2018/oneplus5-change-screen.html</loc>
+    <loc>https://blog.xxwhite.com/2018/image-format.html</loc>
     
     <lastmod>2018-12-21T14:20:14.108Z</lastmod>
     
@@ -212,14 +226,14 @@
   </url>
   
   <url>
-    <loc>https://blog.xxwhite.com/2018/add-download-markdown.html</loc>
+    <loc>https://blog.xxwhite.com/2018/YHKindergarten.html</loc>
     
     <lastmod>2018-12-21T14:20:14.105Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.xxwhite.com/2018/YHKindergarten.html</loc>
+    <loc>https://blog.xxwhite.com/2018/add-download-markdown.html</loc>
     
     <lastmod>2018-12-21T14:20:14.105Z</lastmod>
     
@@ -240,13 +254,6 @@
   </url>
   
   <url>
-    <loc>https://blog.xxwhite.com/2018/FusionApp1.html</loc>
-    
-    <lastmod>2018-12-21T14:20:14.102Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.xxwhite.com/2018/HexoKeng.html</loc>
     
     <lastmod>2018-12-21T14:20:14.102Z</lastmod>
@@ -261,14 +268,14 @@
   </url>
   
   <url>
-    <loc>https://blog.xxwhite.com/2018/Drcom.html</loc>
+    <loc>https://blog.xxwhite.com/2018/DwgToPdf.html</loc>
     
     <lastmod>2018-12-21T14:20:14.100Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.xxwhite.com/2018/DwgToPdf.html</loc>
+    <loc>https://blog.xxwhite.com/2018/Drcom.html</loc>
     
     <lastmod>2018-12-21T14:20:14.100Z</lastmod>
     
@@ -311,13 +318,6 @@
   
   <url>
     <loc>https://blog.xxwhite.com/2017/XposedInstall.html</loc>
-    
-    <lastmod>2018-12-21T14:20:14.095Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.xxwhite.com/2017/VideoTest.html</loc>
     
     <lastmod>2018-12-21T14:20:14.095Z</lastmod>
     
