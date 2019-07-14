@@ -31,16 +31,16 @@ CloudXNS有一个独有的Link记录可以解决这个问题，当时也正是�
 首先把`@`的A记录记录解析到VPS的IP上，然后在NGINX上配置
 
 ```
-if($host='xxwhite.com'){
-	return 301 https://blog.xxwhite.com;
+if ($host ~ '^xxwhite.com'){
+	return 301 https://blog.xxwhite.com$request_uri;
 }
 ```
 
 或者
 
 ```
-if($host='xxwhite.com'){
-	return 302 https://blog.xxwhite.com;
+if ($host ~ '^xxwhite.com'){
+	return 302 https://blog.xxwhite.com$request_uri;
 }
 ```
 
