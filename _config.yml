@@ -145,7 +145,7 @@ hexo-tag-dplayer:
     - https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.js
     - https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.css
   default: 
-    api: https://video.sm9.top:8083/api/dplayer/
+    api: https://danmaku.xwhite.studio/api/dplayer/
     loop: yes
     screenshot: yes
 
