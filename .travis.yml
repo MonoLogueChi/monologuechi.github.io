@@ -17,7 +17,7 @@ cache:
 
 before_install:
   - export TZ='Asia/Shanghai'
-  - sed -i 's/your_token/$BAIDU_PUSH_TOKEN/g' ./_config.yml
+  - sed -i 's/your_token/${BAIDU_PUSH_TOKEN}/g' ./_config.yml
 
 install:
   - npm install --pure-lockfile
