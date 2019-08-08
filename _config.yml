@@ -101,7 +101,7 @@ theme: yilia
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: 
+  - type: 
   
 feed:
   limit: 35
