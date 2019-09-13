@@ -46,7 +46,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
   
@@ -56,16 +56,16 @@ highlight:
   auto_detect: true
   tab_replace: '    '
 
-markdown_it_plus:
-    highlight: true
-    html: true
-    xhtmlOut: true
-    breaks: true
-    langPrefix:
-    linkify: true
-    typographer:
-    quotes: “”‘’
-    pre_class: 'highlight'
+marked:
+  gfm: true
+  pedantic: false
+  breaks: true
+  smartLists: true
+  smartypants: true
+  modifyAnchors: ''
+  autolink: false
+  sanitizeUrl: false
+  headerIds: true
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
