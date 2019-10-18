@@ -8,6 +8,7 @@ pool:
 variables:
 - group: github
 - group: upyun
+- group: search
 
 steps:
 - task: UseNode@1
@@ -25,6 +26,7 @@ steps:
 - task: CmdLine@2
   inputs:
     script: |
+      sed -i 's/your_token/$(BAIDU_PUSH_TOKEN)/g' ./_config.yml
       hexo g
 
       #又拍云同步
