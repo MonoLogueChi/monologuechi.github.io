@@ -30,9 +30,9 @@ steps:
       #又拍云同步
       wget -O upx http://collection.b0.upaiyun.com/softwares/upx/upx-linux-amd64-v0.2.4
       chmod +x upx
-      upx login $(BUCKET) $(OPERATOR) $(OPERATOR_PASSWORD)
-      upx sync public/ / --delete
-      upx logout
+      ./upx login $(BUCKET) $(OPERATOR) $(OPERATOR_PASSWORD)
+      ./upx sync public/ / --delete
+      ./upx logout
       
       #GitHub Page
       cd public
