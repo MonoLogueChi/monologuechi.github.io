@@ -1,0 +1,45 @@
+
+trigger:
+- master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+variables:
+- group: github
+- group: upyun
+
+steps:
+- task: UseNode@1
+  inputs:
+    checkLatest: true
+- task: Npm@1
+  inputs:
+    command: 'custom'
+    customCommand: 'install hexo-cli -g'
+- task: Npm@1
+  inputs:
+    command: 'custom'
+    customCommand: 'install --pure-lockfile'
+
+- task: CmdLine@2
+  inputs:
+    script: |
+      hexo g
+
+      #又拍云同步
+      wget -O upx http://collection.b0.upaiyun.com/softwares/upx/upx-linux-amd64-v0.2.4
+      chmod +x upx
+      upx login $(BUCKET) $(OPERATOR) $(OPERATOR_PASSWORD)
+      upx sync public/ / --delete
+      upx logout
+      
+      #GitHub Page
+      cd public
+      touch .nojekyll
+      git config --global user.email "$(EMAIL)"
+      git config --global user.name "$(USER)"
+      git init
+      git add .
+      git commit -m update
+      git push --force --quiet https://$(TOKEN)@github.com/MonoLogueChi/blog.xxwhite.com.git master:gh-pages
