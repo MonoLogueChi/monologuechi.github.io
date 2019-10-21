@@ -3,14 +3,13 @@
   "version": "0.0.0",
   "private": true,
   "hexo": {
-    "version": "3.9.0"
+    "version": "4.0.0"
   },
   "dependencies": {
-    "hexo": "^3.9.0",
+    "hexo": "^4.0.0",
     "hexo-all-minifier": "^0.5.3",
     "hexo-asset-image": "^1.0.0",
     "hexo-baidu-url-submit": "^0.0.6",
-    "hexo-cli": "^2.0.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
     "hexo-generator-feed": "^2.0.0",
@@ -29,6 +28,6 @@
     "start": "hexo clean && hexo g"
   },
   "devDependencies": {
-    "webpack": "^4.40.0"
+    "webpack": "^4.41.2"
   }
 }
