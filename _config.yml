@@ -3,11 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: '叉叉白'
-subtitle: '叉叉白，听我跟你瞎白话'
-description: '一个小白搞机的记事本'
-keywords: 
-  叉叉白
+title: "叉叉白"
+subtitle: "叉叉白，听我跟你瞎白话"
+description: "一个小白搞机的记事本"
+keywords: 叉叉白
   搞机
   小白
   安卓
@@ -18,8 +17,8 @@ keywords:
   Unity
   Hexo
   建站
-author: 'MonoLogueChi'
-language: 'Zh-cn'
+author: "MonoLogueChi"
+language: "Zh-cn"
 timezone:
 
 # URL
@@ -37,7 +36,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render: '*.html'
+skip_render: "*.html"
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -49,12 +48,12 @@ render_drafts: false
 post_asset_folder: true
 relative_link: false
 future: true
-  
+
 highlight:
   enable: true
   line_number: true
   auto_detect: true
-  tab_replace: '    '
+  tab_replace: "    "
 
 marked:
   gfm: true
@@ -62,7 +61,7 @@ marked:
   breaks: true
   smartLists: true
   smartypants: true
-  modifyAnchors: ''
+  modifyAnchors: ""
   autolink: false
   sanitizeUrl: false
   headerIds: true
@@ -74,7 +73,7 @@ markdown:
     breaks: true
     linkify: true
     typographer: true
-    quotes: '“”‘’'
+    quotes: "“”‘’"
   plugins:
     - markdown-it-abbr
     - markdown-it-footnote
@@ -83,7 +82,7 @@ markdown:
     - markdown-it-sup
   anchors:
     level: 2
-    collisionSuffix: 'v'
+    collisionSuffix: "v"
     permalink: false
     permalinkClass: header-anchor
     permalinkSymbol: ¶
@@ -93,10 +92,10 @@ markdown:
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
+  path: ""
   per_page: 10
   order_by: -date
-  
+
 # Category & Tag
 default_category: uncategorized
 category_map:
@@ -123,24 +122,24 @@ theme: yilia
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   - type: baidu_url_submitter ##百度推送
-  
+
 baidu_url_submit:
   count: 3 ## 提交最新的一个链接
   host: blog.xxwhite.com ## 在百度站长平台中注册的域名
   token: your_token ## 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
   path: baidu_urls.txt ## 文本文档的地址， 新链接会保存在此文本文档里
-  
+
 feed:
   limit: 35
   hub:
   content: true
   content_limit: 1000
-  content_limit_delim: '。'
+  content_limit_delim: "。"
 
-jsonContent: 
+jsonContent:
   meta: false
   pages: false
-  posts: 
+  posts:
     title: true
     date: true
     path: true
@@ -154,43 +153,43 @@ jsonContent:
     permalink: false
     excerpt: false
     categories: false
-    tags: true  
- 
+    tags: true
+
 #APlayer
 aplayer:
-  cdn: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js  # 引用 APlayer.js 外部 CDN 地址 (默认不开启)
+  cdn: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js # 引用 APlayer.js 外部 CDN 地址 (默认不开启)
   style_cdn: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css
-  meting: true                                  # MetingJS 支持
+  meting: true # MetingJS 支持
   meting_api: https://sm.sm9.top/api.php
   meting_cdn: https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js # 引用 Meting.js 外部 CDN 地址 (默认不开启)
-  asset_inject: true                           # 自动插入 Aplayer.js 与 Meting.js 资源脚本, 默认开启
+  asset_inject: true # 自动插入 Aplayer.js 与 Meting.js 资源脚本, 默认开启
 
 #DPlayer
 hexo-tag-dplayer:
   cdn:
     - https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.js
     - https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.css
-  default: 
+  default:
     api: https://danmaku.xwhite.studio/api/dplayer/
     loop: yes
     screenshot: yes
 
 #网页压缩
 html_minifier:
-  enable: false
+  enable: true
   ignore_error: false
   exclude:
 css_minifier:
   enable: false
   exclude:
-    - '*.min.css'
+    - "*.min.css"
 js_minifier:
   enable: false
   mangle: true
   output:
   compress:
   exclude:
-    - '*.min.js'
+    - "*.min.js"
 image_minifier:
   enable: false
   interlaced: false
