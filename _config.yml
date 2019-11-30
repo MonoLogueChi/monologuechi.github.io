@@ -129,6 +129,7 @@ baidu_url_submit:
   token: your_token ## 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
   path: baidu_urls.txt ## 文本文档的地址， 新链接会保存在此文本文档里
 
+
 feed:
   limit: 35
   hub:
@@ -197,3 +198,20 @@ image_minifier:
   optimizationLevel: 2
   pngquant: false
   progressive: false
+
+# offline config passed to sw-precache.离线缓存
+offline:
+  maximumFileSizeToCacheInBytes: 5242880
+  staticFileGlobs:
+    - public/**/*.{js,html,css,png,jpg,gif,svg,eot,ttf,woff,woff2,mp4}
+  stripPrefix: public
+  verbose: true
+  runtimeCaching:
+    - urlPattern: /*
+      handler: cacheFirst
+      options:
+        origin: oss.xxwhite.com
+    - urlPattern: /*
+      handler: cacheFirst
+      options:
+        origin: cdn.jsdelivr.net
