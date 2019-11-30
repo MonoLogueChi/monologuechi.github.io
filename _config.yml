@@ -199,19 +199,19 @@ image_minifier:
   pngquant: false
   progressive: false
 
-# offline config passed to sw-precache.离线缓存
-offline:
-  maximumFileSizeToCacheInBytes: 5242880
-  staticFileGlobs:
-    - public/**/*.{js,html,css,png,jpg,gif,svg,eot,ttf,woff,woff2,mp4}
-  stripPrefix: public
-  verbose: true
-  runtimeCaching:
-    - urlPattern: /*
-      handler: cacheFirst
-      options:
-        origin: oss.xxwhite.com
-    - urlPattern: /*
-      handler: cacheFirst
-      options:
-        origin: cdn.jsdelivr.net
+# # offline config passed to sw-precache.离线缓存
+# offline:
+#   maximumFileSizeToCacheInBytes: 5242880
+#   staticFileGlobs:
+#     - public/**/*.{js,html,css,png,jpg,gif,svg,eot,ttf,woff,woff2}
+#   stripPrefix: public
+#   verbose: true
+#   runtimeCaching:
+#     - urlPattern: /*
+#       handler: cacheFirst
+#       options:
+#         origin: https://oss.xxwhite.com
+#     - urlPattern: /*
+#       handler: cacheFirst
+#       options:
+#         origin: https://cdn.jsdelivr.net
