@@ -51,9 +51,9 @@ reward_type: 2
 # 打赏wording
 reward_wording: '请作者吃辣条'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
-alipay: 'https://oss.xxwhite.com/static/alipay.png'
+alipay: '/assets/img/alipay.png'
 # 微信二维码图片地址
-weixin: 'https://oss.xxwhite.com/static/wechatpay.png'
+weixin: '/assets/img/wechatpay.png'
 
 # 版权声明type设定：0-关闭版权声明； 1-文章对应的md文件里有copyright: true属性，才有版权声明； 2-所有copyright不为false的文章均有版权声明
 copyright_type: 2
@@ -62,7 +62,7 @@ copyright_type: 2
 beian: '蒙ICP备17004911号-1'
 
 # 又拍云开发者计划图片链接，没有请留空
-upyun: 'https://oss.xxwhite.com/static/upyun.png'
+upyun: '/assets/img/upyun.png'
 
 # 目录
 # 目录设定：0-不显示目录； 1-文章对应的md文件里有toc:true属性，才有目录； 2-所有文章均显示目录
@@ -78,10 +78,10 @@ top: true
 # Miscellaneous
 baidu_analytics: '893dcb25b87bcda2f682b3a6d5c537f7'
 google_analytics: 'UA-113200574-1'
-favicon: 'https://oss.xxwhite.com/static/favicon.png'
+favicon: '/assets/img/favicon.png'
 
 #你的头像url
-avatar: 'https://oss.xxwhite.com/static/avatar.jpg'
+avatar: '/assets/img/avatar.jpg'
 
 #是否开启分享
 share_jia: false
