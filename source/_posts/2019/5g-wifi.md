@@ -35,7 +35,7 @@ Wi-Fi6是什么呢？就是前面稍微提到的一个名词 `802.11ax`。
 吐槽一下，我笔记本网卡换了支持802.11ax协议的ax200，但是路由器却是一个150M路由器（只支持802.11a/b/g/n），别说802.11ax了，连802.11ac都用不上，现在用的是25块钱买的au路由器，以后自己买房了肯定上一个好一点的路由器。都说好马配好鞍，我现在有了好鞍却没有好马。
 
 {% raw %}
-<center><img width="960px" alt="左AC3165，右AX200" src="5g-wifi/DSC_0090.jpg"><p>左AC3165，右AX200</p></center>
+<center><img width="960px" alt="左AC3165，右AX200" src="/assets/img/2019/DSC_0090.jpg"><p>左AC3165，右AX200</p></center>
 {% endraw %}
 
 ## 5G
@@ -55,5 +55,5 @@ Wi-Fi6是什么呢？就是前面稍微提到的一个名词 `802.11ax`。
 比如802.11n的2.4G和5G，都可以选择20MHz和40MHz的频宽，当使用40MHz频宽时，速度会更快。
 802.11ac使用Wave2可以使用160MHz的频宽，也就是有更高的速度。
 
-![WiFi属性](5g-wifi/s.png) ![无线网卡设置](5g-wifi/s1.png)
+![WiFi属性](/assets/img/2019/s.png) ![无线网卡设置](/assets/img/2019/s1.png)
 

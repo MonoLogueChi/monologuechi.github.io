@@ -23,14 +23,14 @@ comments: true
 - [https://docs.unity3d.com/Packages/com.unity.2d.psdimporter@2.0/manual/index.html](https://docs.unity3d.com/Packages/com.unity.2d.psdimporter@2.0/manual/index.html)
 
 
-![包管理器](unity-2danimation/Snipaste_2019-11-13_15-05-41.png)
+![包管理器](/assets/img/2019/Snipaste_2019-11-13_15-05-41.png)
 
 ### 资源文件
 
 资源文件需要`PSB`格式，直接使用PS另存为PSB格式就可以了。
 
 {% raw %}
-<video id="video1" autoplay loop muted src="unity-2danimation/1.gif"></video>
+<video id="video1" autoplay loop muted src="/assets/img/2019/1.gif"></video>
 {% endraw %}
 
 我是线在手机上随便画了一个，然后传到电脑上，用PS另存为PSB格式。
@@ -46,7 +46,7 @@ comments: true
 打开骨骼编辑系统。
 
 {% raw %}
-<video id="video2" autoplay loop muted src="unity-2danimation/2.gif"></video>
+<video id="video2" autoplay loop muted src="/assets/img/2019/2.gif"></video>
 {% endraw %}
 
 如果使用自动处理会简单一些，先创建骨骼，然后绑定，使用`Auto Geometry`绑定，并自动创建权重。这个时候会发现网格分好了，但是这些东西全都是连成一片的，动手臂身子也会跟着动。
@@ -54,19 +54,19 @@ comments: true
 这里身子部分是不需要动画的，所以直接把身体部分的网格删掉就可以了。
 
 {% raw %}
-<video id="video3" autoplay loop muted src="unity-2danimation/3.gif"></video>
+<video id="video3" autoplay loop muted src="/assets/img/2019/3.gif"></video>
 {% endraw %}
 
 也可以先选定图层，然后再自动创建网格。
 
 {% raw %}
-<video id="video4" autoplay loop muted src="unity-2danimation/4.gif"></video>
+<video id="video4" autoplay loop muted src="/assets/img/2019/4.gif"></video>
 {% endraw %}
 
 如果是手动处理的话，会麻烦一点，但是很多情况下更需要手动去处理。我这里只演示一部分。
 
 {% raw %}
-<video id="video5" autoplay loop muted src="unity-2danimation/5.gif"></video>
+<video id="video5" autoplay loop muted src="/assets/img/2019/5.gif"></video>
 {% endraw %}
 
 ## 编辑动画
@@ -74,5 +74,5 @@ comments: true
 动画编辑就和3D动画没什么区别了，正常做就可以了。
 
 {% raw %}
-<video id="video5" autoplay loop muted src="unity-2danimation/6.gif"></video>
+<video id="video5" autoplay loop muted src="/assets/img/2019/6.gif"></video>
 {% endraw %}
