@@ -19,7 +19,7 @@ keywords: 叉叉白
   建站
 author: "MonoLogueChi"
 language: "Zh-cn"
-timezone:
+timezone: 
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -37,9 +37,6 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render: "*.html"
-
-include: "assets/**/*"
-exclude:
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -159,24 +156,30 @@ jsonContent:
     categories: false
     tags: true
 
-#APlayer
-aplayer:
-  cdn: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js # 引用 APlayer.js 外部 CDN 地址 (默认不开启)
-  style_cdn: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css
-  meting: true # MetingJS 支持
-  meting_api: https://sm.sm9.top/api.php
-  meting_cdn: https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js # 引用 Meting.js 外部 CDN 地址 (默认不开启)
-  asset_inject: true # 自动插入 Aplayer.js 与 Meting.js 资源脚本, 默认开启
-
-#DPlayer
-hexo-tag-dplayer:
-  cdn:
-    - https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.js
-    - https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.css
-  default:
-    api: https://danmaku.xwhite.studio/api/dplayer/
-    loop: yes
-    screenshot: yes
+mmedia:
+  aplayer: 
+    cdn: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js
+    style_cdn: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css
+    default: 
+      order: random
+  meting:
+    cdn: https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js
+    api: https://sm.sm9.top/api.php
+    default: 
+      order: random
+  dplayer:
+    cdn: https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.js
+    style_cdn: https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.css
+    default: 
+      api: https://danmaku.xwhite.studio/api/dplayer/
+      loop: true
+      screenshot: true
+  bilibili: 
+    default: 
+      quality: high
+      danmaku: true
+      width: 100%
+      height: 500px
 
 #网页压缩
 html_minifier:
@@ -201,20 +204,3 @@ image_minifier:
   optimizationLevel: 2
   pngquant: false
   progressive: false
-
-# # offline config passed to sw-precache.离线缓存
-# offline:
-#   maximumFileSizeToCacheInBytes: 5242880
-#   staticFileGlobs:
-#     - public/**/*.{js,html,css,png,jpg,gif,svg,eot,ttf,woff,woff2}
-#   stripPrefix: public
-#   verbose: true
-#   runtimeCaching:
-#     - urlPattern: /*
-#       handler: cacheFirst
-#       options:
-#         origin: https://oss.xxwhite.com
-#     - urlPattern: /*
-#       handler: cacheFirst
-#       options:
-#         origin: https://cdn.jsdelivr.net

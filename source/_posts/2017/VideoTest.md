@@ -10,8 +10,4 @@ comments: true
 
 <!-- more -->
 
-{% dplayer "url=https://dl.sm9.top/Video/2018/%E6%8E%98%E5%9C%B0%E6%B1%82%E5%8D%87_x264.mp4" " screenshot" "loop=yes" "id=46190A32F63DFF2CF0A3BB0F3293636C" "addition=https://danmaku.xwhite.studio/api/dplayer/v3/bilibili/?cid=28019559" %} 
-
-
-
-
+{% dplayer "url:https://dl.sm9.top/Video/2018/%E6%8E%98%E5%9C%B0%E6%B1%82%E5%8D%87_x264.mp4" "screenshot" "loop" "id:46190A32F63DFF2CF0A3BB0F3293636C" "addition:https://danmaku.xwhite.studio/api/dplayer/v3/bilibili/?cid=28019559" %} 
