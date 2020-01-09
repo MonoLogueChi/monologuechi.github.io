@@ -4,16 +4,17 @@ menu:
   主页: '/'
   搞机: '/tags/搞机/'
   笔记: '/tags/建站笔记/'
+  时光: '/tags/timeline/'
   留言: '/MessageBoard/'
   关于: '/aboutme/'
 
 # SubNav
 subnav:
   github: 'https://github.com/MonoLogueChi'
-  #weibo: "https://weibo.com/u/5226533927/"
+  weibo: "https://weibo.com/u/5226533927/"
   #zhihu: "#"
   #qq: "#"
-  weixin: 'https://s1.ax2x.com/2018/07/14/q4v9K.png'
+  #weixin: 'https://s1.ax2x.com/2018/07/14/q4v9K.png'
   #jianshu: "#"
   #douban: "#"
   #segmentfault: "#"
