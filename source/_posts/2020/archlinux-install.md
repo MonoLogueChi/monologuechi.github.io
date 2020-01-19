@@ -97,10 +97,11 @@ comments: true
 ### 挂载分区
 
 ```
+# mount /dev/sda3 /mnt
+
 # mkdir /mnt/boot
 # mkdir /mnt/efi
 
-# mount /dev/sda3 /mnt
 # mount /dev/sda2 /mnt/boot
 # mount /dev/sda1 /mnt/efi
 ```
