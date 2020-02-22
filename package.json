@@ -21,12 +21,12 @@
     "hexo-renderer-markdown-it": "^4.0.0",
     "hexo-renderer-stylus": "^1.1.0",
     "hexo-server": "^1.0.0",
-    "hexo-tag-mmedia": "^0.1.0"
+    "hexo-tag-mmedia": "^0.1.2"
   },
   "scripts": {
     "start": "hexo clean && hexo g"
   },
   "devDependencies": {
-    "webpack": "^4.41.5"
+    "webpack": "^4.41.6"
   }
 }
