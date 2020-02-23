@@ -17,7 +17,7 @@ steps:
       git submodule update --remote
 - task: UseNode@1
   inputs:
-    checkLatest: true
+    version: "12.x"
 - task: Npm@1
   inputs:
     command: 'custom'
