@@ -91,13 +91,17 @@ namespace WebApplication1
 
             app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
 
-#if DEBUG //重点
+            //重点
             app.UseSpa(spa =>
             {
-                spa.Options.SourcePath = "myapp";
+#if DEBUG
+                spa.Options.SourcePath = "ClientApp";
                 spa.UseVueCli();
-            });
+#else
+                config.Options.SourcePath = "wwwroot";
+                config.Options.DefaultPage = "/index.html";
 #endif
+            });
         }
     }
 }
