@@ -171,7 +171,7 @@ mmedia:
     cdn: https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.js
     style_cdn: https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.css
     default: 
-      api: https://danmaku.xwhite.studio/api/dplayer/
+      api: https://danmu.u2sb.top/api/danmu/dplayer/
       loop: true
       screenshot: true
   bilibili: 

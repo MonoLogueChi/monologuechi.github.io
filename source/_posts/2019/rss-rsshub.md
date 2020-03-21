@@ -19,7 +19,7 @@ comments: true
 
 ## Miniflux 安装过程
 
-首先是要安装 [PostgreSQL](https://www.postgresql.org/)，可以参考 [https://doc.video.xwhite.studio/danmaku/postgresql.html](https://doc.video.xwhite.studio/danmaku/postgresql.html)。记得同时安装一下`contrib`下的工具。
+首先是要安装 [PostgreSQL](https://www.postgresql.org/)，可以参考 [https://dandoc.u2sb.top/other/pgsql.html](https://dandoc.u2sb.top/other/pgsql.html)。记得同时安装一下`contrib`下的工具。
 
 ```
 cd contrib

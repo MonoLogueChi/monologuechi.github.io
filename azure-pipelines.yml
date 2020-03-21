@@ -10,18 +10,19 @@ variables:
 - group: search
 
 steps:
-- task: CmdLine@2
-  inputs:
-    script: |
-      git submodule init
-      git submodule update --remote
+- checkout: self
+  fetchDepth: 1
+  submodules: true
+
 - task: UseNode@1
   inputs:
     version: "12.x"
+
 - task: Npm@1
   inputs:
     command: 'custom'
     customCommand: 'install hexo-cli -g'
+    
 - task: Npm@1
   inputs:
     command: 'custom'
