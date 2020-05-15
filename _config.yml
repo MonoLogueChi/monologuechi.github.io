@@ -182,28 +182,17 @@ mmedia:
       margin: auto
 
 #网页压缩
-html_minifier:
-  enable: true
-  ignore_error: false
-  exclude:
-css_minifier:
-  enable: false
-  exclude:
-    - "*.min.css"
-js_minifier:
-  enable: false
-  mangle: true
-  output:
-  compress:
-  exclude:
-    - "*.min.js"
-image_minifier:
-  enable: false
-  interlaced: false
-  multipass: false
-  optimizationLevel: 2
-  pngquant: false
-  progressive: false
+asset_pipeline:
+  revisioning:
+    enable: false
+  clean_css:
+    enable: false
+  uglify_js:
+    enable: false
+  imagemin:
+    enable: true
+  html_minifier:
+    enable: true
 
 ## 主题
 theme_config:

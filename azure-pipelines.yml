@@ -17,22 +17,15 @@ steps:
 - task: UseNode@1
   inputs:
     version: "12.x"
-
-- task: Npm@1
-  inputs:
-    command: 'custom'
-    customCommand: 'install hexo-cli -g'
     
-- task: Npm@1
-  inputs:
-    command: 'custom'
-    customCommand: 'install --pure-lockfile'
-
 - task: CmdLine@2
   inputs:
     script: |
+      curl -L https://raw.githubusercontent.com/pnpm/self-installer/master/install.js | node
+      pnpm add -g hexo-cli
+      pnpm install
       sed -i 's/your_token/$(BAIDU_PUSH_TOKEN)/g' ./_config.yml
-      hexo g
+      pnpm start
 
       #又拍云同步
       wget -O upx http://collection.b0.upaiyun.com/softwares/upx/upx-linux-amd64-v0.2.4
