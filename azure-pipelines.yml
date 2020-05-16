@@ -28,7 +28,7 @@ steps:
       pnpm start
 
       #又拍云同步
-      wget -O upx http://collection.b0.upaiyun.com/softwares/upx/upx-linux-amd64-v0.2.4
+      wget -O upx http://collection.b0.upaiyun.com/softwares/upx/upx-linux-amd64-v0.2.6
       chmod +x upx
       ./upx login $(BUCKET) $(OPERATOR) $(OPERATOR_PASSWORD)
       ./upx sync public/ / --delete
