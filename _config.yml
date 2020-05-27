@@ -310,16 +310,19 @@ theme_config:
 
   #6、Valine https://valine.js.org
   valine:
+    mini: true
     appId: "BOnDPDiz9EeoGAC11JdnV9mw-gzGzoHsz" #Leancloud应用的appId
     appKey: "gNFFgOahNl9DGsyX1WearaYO" #Leancloud应用的appId
     avatar: "" #评论列表头像样式：''/mm/identicon/monsterid/wavatar/retro/hide
     avatar_cdn: "https://sdn.geekzu.org/avatar/" #头像CDN
-    placeholder: "友情提醒，留下正确的邮箱地址可以第一时间获取评论反馈" #评论框占位符
+    placeholder: 点击评论 #评论框占位符
     pageSize: 12 #评论分页
     visitor: true #阅读统计
     recordIP: true #记录IP
     serverURLs: "https://leancloud.xxwhite.com"
-    version: latest #例如 latest 1.4.5
+    version: latest #例如 latest 1.4.5 1
+    adminEmailMd5:	a70ed099981735ebdf3d7c71dc507559
+    math: false
     # emojiCDN: https://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/
     # emojiMaps:
     #   smile: e3/2018new_weixioa02_org.png
