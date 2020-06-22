@@ -47,4 +47,4 @@ mathjax: true
 
 即可。
 
-理论上来说，评论区也是同样支持公式的。
+评论区暂时还未开启公式支持，想要在评论区讨论的，可用使用 [https://www.latexlive.com/](https://www.latexlive.com/) 生成图片，然后粘贴到评论区。
