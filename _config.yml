@@ -322,7 +322,6 @@ theme_config:
     serverURLs: "https://leancloud.xxwhite.com"
     version: latest #例如 latest 1.4.5 1
     adminEmailMd5:	a70ed099981735ebdf3d7c71dc507559
-    math: false
     # emojiCDN: https://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/
     # emojiMaps:
     #   smile: e3/2018new_weixioa02_org.png
