@@ -16,6 +16,8 @@ dependencies:
   hexo-tag-mmedia: 0.1.5
   hexo-util: 2.1.0
   keyword-extractor: 0.0.19
+  lodash: 4.17.19
+  utils-merge: 1.0.1
 lockfileVersion: 5.1
 packages:
   /@mrmlnc/readdir-enhanced/2.2.1:
@@ -2945,6 +2947,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  /lodash/4.17.19:
+    dev: false
+    resolution:
+      integrity: sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
   /logalot/2.1.0:
     dependencies:
       figures: 1.7.0
@@ -4968,3 +4974,5 @@ specifiers:
   hexo-tag-mmedia: ^0.1.5
   hexo-util: ^2.1.0
   keyword-extractor: ^0.0.19
+  lodash: ^4.17.19
+  utils-merge: ^1.0.1
