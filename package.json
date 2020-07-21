@@ -24,6 +24,7 @@
     "hexo-util": "^2.1.0",
     "keyword-extractor": "^0.0.19",
     "lodash": "^4.17.19",
+    "markdown-it-imsize": "^2.0.1",
     "utils-merge": "^1.0.1"
   },
   "scripts": {

@@ -80,6 +80,7 @@ markdown:
     - markdown-it-ins
     - markdown-it-sub
     - markdown-it-sup
+    - markdown-it-imsize
   anchors:
     level: 2
     collisionSuffix: "v"

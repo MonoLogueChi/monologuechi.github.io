@@ -17,6 +17,7 @@ dependencies:
   hexo-util: 2.1.0
   keyword-extractor: 0.0.19
   lodash: 4.17.19
+  markdown-it-imsize: 2.0.1
   utils-merge: 1.0.1
 lockfileVersion: 5.1
 packages:
@@ -3070,6 +3071,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-JVW6fCmZWjvMdDQSbOT3nnOQtd9iAXmw7hTSh26+v42BnvXeVyGMDBm5b/EZocMed2MbCAHiTX632vY0FyGB8A==
+  /markdown-it-imsize/2.0.1:
+    dev: false
+    resolution:
+      integrity: sha1-zKBCeQXQUziiR8ucqdloxc3dUXA=
   /markdown-it-ins/3.0.0:
     dev: false
     resolution:
@@ -4975,4 +4980,5 @@ specifiers:
   hexo-util: ^2.1.0
   keyword-extractor: ^0.0.19
   lodash: ^4.17.19
+  markdown-it-imsize: ^2.0.1
   utils-merge: ^1.0.1
