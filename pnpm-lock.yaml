@@ -13,7 +13,7 @@ dependencies:
   hexo-renderer-ejs: 1.0.0
   hexo-renderer-markdown-it: 4.1.0
   hexo-server: 1.0.0
-  hexo-tag-mmedia: 0.1.7
+  hexo-tag-mmedia: 0.1.9
   hexo-util: 2.2.0
   keyword-extractor: 0.0.19
   lodash: 4.17.19
@@ -2176,10 +2176,10 @@ packages:
       node: '>=8.6.0'
     resolution:
       integrity: sha512-eSY+a5oiGCG/3T6FrdrNRBkttMLJkM+oitY6ZMFowjcBiG2VNEhQmfWUDOykfvApZs4wPYBb//uXD/58tfe3mA==
-  /hexo-tag-mmedia/0.1.7:
+  /hexo-tag-mmedia/0.1.9:
     dev: false
     resolution:
-      integrity: sha512-bSa6/GKRHQjOQFqQkZsVXf+TphK5/BA3VG0gRDZkTSLE4LKCb9ZCBetCPtMr8FHLOk/mN9v48NvU0HS5bphYjw==
+      integrity: sha512-2XeW2YU3dxr0Ao9vj4/f/JAiWK1jBks1Q1wknQlNNvSdAmgC4hzAASN3wS3AIGNHviua0YFVfk5AvWQYU4L9gQ==
   /hexo-util/0.6.3:
     dependencies:
       bluebird: 3.7.2
@@ -4946,7 +4946,7 @@ specifiers:
   hexo-renderer-ejs: ^1.0.0
   hexo-renderer-markdown-it: ^4.1.0
   hexo-server: ^1.0.0
-  hexo-tag-mmedia: ^0.1.7
+  hexo-tag-mmedia: ^0.1.9
   hexo-util: ^2.2.0
   keyword-extractor: ^0.0.19
   lodash: ^4.17.19
