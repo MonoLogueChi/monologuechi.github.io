@@ -34,7 +34,7 @@ comments: true
 修改防火墙设置，添加
 
 ```
-iptables -t nat -I POSTROUTING -j MASQUERADE
+iptables -t nat -I POSTROUTING -o eth0 -j MASQUERADE
 ```
 
 ![](/assets/img/2020/Snipaste_2020-07-13_10-09-30.png)
