@@ -153,6 +153,8 @@ vfio_virqfd
 scp D:\MonoLogueChi\Desktop\1\openwrt-x86-64-generic-squashfs-combined-efi.qcow2 root@192.168.1.129:/srv/dev-disk-by-label-v/data/vm
 ```
 
+如果你不知用什么镜像，可以用我编译的[精简版镜像](https://dl.u2sb.top/#/s/GPIQ?path=%2Fblog%2F%E8%BD%AF%E8%B7%AF%E7%94%B1%2FOpenWRT%2F%E8%87%AA%E5%B7%B1%E7%BC%96%E8%AF%91%E7%9A%84%E9%95%9C%E5%83%8F%2F%E7%B2%BE%E7%AE%80%E5%9B%BA%E4%BB%B6)
+
 然后导入虚拟机，但不要立即启动，修改启动顺序，然后检查一下当前的网络接口是不是br0，如果是br0，就启动测试一下。
 
 ![引导顺序](/assets/img/2020/200822_115903_msedge_cD6K.png)
