@@ -171,8 +171,6 @@ scp D:\MonoLogueChi\Desktop\1\openwrt-x86-64-generic-squashfs-combined-efi.qcow2
 
 首先是看网卡的id，这一部分可以参考我们上一期的PVE教程。
 
-我演示的机器是一张螃蟹卡，不能做直通，但是我在其他机器上做过，下面的过程没有错。
-
 ```
 sudo dmesg | grep eth
 ```
@@ -180,30 +178,29 @@ sudo dmesg | grep eth
 会输出大概这么一长串东西
 
 ```
-[    1.027670] r8169 0000:01:00.0 eth0: RTL8168evl/8111evl, 00:e0:ac:cd:c5:93, XID 2c9, IRQ 42
-[    1.027672] r8169 0000:01:00.0 eth0: jumbo features [frames: 9200 bytes, tx checksumming: ko]
-[    1.035309] r8169 0000:02:00.0 eth1: RTL8168evl/8111evl, 00:e0:4c:68:00:01, XID 2c9, IRQ 45
-[    1.035311] r8169 0000:02:00.0 eth1: jumbo features [frames: 9200 bytes, tx checksumming: ko]
-[    1.048221] r8169 0000:01:00.0 enp1s0: renamed from eth0
-[    1.069220] r8169 0000:02:00.0 enp2s0: renamed from eth1
-[   19.458130] docker0: port 1(vethfb3fff4) entered blocking state
-[   19.458133] docker0: port 1(vethfb3fff4) entered disabled state
-[   19.458205] device vethfb3fff4 entered promiscuous mode
-[   19.458313] docker0: port 1(vethfb3fff4) entered blocking state
-[   19.458315] docker0: port 1(vethfb3fff4) entered forwarding state
-[   19.458411] docker0: port 1(vethfb3fff4) entered disabled state
-[   20.258227] eth0: renamed from veth489620d
-[   20.285099] IPv6: ADDRCONF(NETDEV_CHANGE): vethfb3fff4: link becomes ready
-[   20.285141] docker0: port 1(vethfb3fff4) entered blocking state
-[   20.285143] docker0: port 1(vethfb3fff4) entered forwarding state
-[   20.325247] eth0: renamed from veth6214321
-[  171.973483] veth6214321: renamed from eth0
+[    1.294563] e1000e 0000:00:19.0 eth0: (PCI Express:2.5GT/s:Width x1) bc:5f:f4:ab:d8:7b
+[    1.294564] e1000e 0000:00:19.0 eth0: Intel(R) PRO/1000 Network Connection
+[    1.294597] e1000e 0000:00:19.0 eth0: MAC: 10, PHY: 11, PBA No: FFFFFF-0FF
+[    1.405764] e1000e 0000:04:00.0 eth1: (PCI Express:2.5GT/s:Width x1) bc:5f:f4:ab:d8:7c
+[    1.405765] e1000e 0000:04:00.0 eth1: Intel(R) PRO/1000 Network Connection
+[    1.405787] e1000e 0000:04:00.0 eth1: MAC: 4, PHY: 8, PBA No: FFFFFF-0FF
+[    1.407947] e1000e 0000:00:19.0 enp0s25: renamed from eth0
+[    1.496268] e1000e 0000:04:00.0 enp4s0: renamed from eth1
+[    1.552373] r8125 0000:01:00.0 enp1s0: renamed from eth0
+[    6.041822] e1000e 0000:04:00.0 eth0: (PCI Express:2.5GT/s:Width x1) bc:5f:f4:ab:d8:7c
+[    6.041824] e1000e 0000:04:00.0 eth0: Intel(R) PRO/1000 Network Connection
+[    6.041838] e1000e 0000:04:00.0 eth0: MAC: 4, PHY: 8, PBA No: FFFFFF-0FF
+[    6.043005] e1000e 0000:04:00.0 enp4s0: renamed from eth0
+[ 5406.455848] e1000e 0000:04:00.0 eth0: (PCI Express:2.5GT/s:Width x1) bc:5f:f4:ab:d8:7c
+[ 5406.455850] e1000e 0000:04:00.0 eth0: Intel(R) PRO/1000 Network Connection
+[ 5406.455864] e1000e 0000:04:00.0 eth0: MAC: 4, PHY: 8, PBA No: FFFFFF-0FF
+[ 5406.457045] e1000e 0000:04:00.0 enp4s0: renamed from eth0
 ```
 
-我想要直通的网卡是 `enp2s0`，我找到了相关的ID
+我想要直通的网卡是 `enp4s0`，我找到了相关的ID
 
 ```
-0000:02:00.0
+0000:04:00.0
 ```
 
 那这个有啥用呢？再来看下面的（如果不是新手，下面这一部分其实不用做）
@@ -216,22 +213,27 @@ virsh nodedev-list --tree |grep pci
 
 ```
   +- pci_0000_00_00_0
+  +- pci_0000_00_01_0
+  |   +- pci_0000_01_00_0
   +- pci_0000_00_02_0
-  +- pci_0000_00_03_0
   +- pci_0000_00_14_0
   +- pci_0000_00_16_0
+  +- pci_0000_00_16_3
+  +- pci_0000_00_19_0
+  +- pci_0000_00_1a_0
   +- pci_0000_00_1b_0
   +- pci_0000_00_1c_0
-  |   +- pci_0000_01_00_0
+  +- pci_0000_00_1c_2
+  |   +- pci_0000_03_00_0
   +- pci_0000_00_1c_4
-  |   +- pci_0000_02_00_0
+  |   +- pci_0000_04_00_0
   +- pci_0000_00_1d_0
   +- pci_0000_00_1f_0
   +- pci_0000_00_1f_2
   +- pci_0000_00_1f_3
 ```
 
-在里面找到 `pci_0000_02_00_0` ，就是前面我们找到的网卡，别着急，接着看。
+在里面找到 `pci_0000_04_00_0` ，就是前面我们找到的网卡，别着急，接着看。
 
 输入命令
 
@@ -243,19 +245,22 @@ virsh nodedev-dumpxml pci_0000_02_00_0
 
 ```xml
 <device>
-  <name>pci_0000_02_00_0</name>
-  <path>/sys/devices/pci0000:00/0000:00:1c.4/0000:02:00.0</path>
+  <name>pci_0000_04_00_0</name>
+  <path>/sys/devices/pci0000:00/0000:00:1c.4/0000:04:00.0</path>
   <parent>pci_0000_00_1c_4</parent>
   <driver>
-    <name>r8169</name>
+    <name>vfio-pci</name>
   </driver>
   <capability type='pci'>
     <domain>0</domain>
-    <bus>2</bus>
+    <bus>4</bus>
     <slot>0</slot>
     <function>0</function>
-    <product id='0x8168'>RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller</product>
-    <vendor id='0x10ec'>Realtek Semiconductor Co., Ltd.</vendor>
+    <product id='0x150c'>82583V Gigabit Network Connection</product>
+    <vendor id='0x8086'>Intel Corporation</vendor>
+    <iommuGroup number='14'>
+      <address domain='0x0000' bus='0x04' slot='0x00' function='0x0'/>
+    </iommuGroup>
     <pci-express>
       <link validity='cap' port='0' speed='2.5' width='1'/>
       <link validity='sta' speed='2.5' width='1'/>
@@ -270,7 +275,7 @@ virsh nodedev-dumpxml pci_0000_02_00_0
 接着detach设备
 
 ```
-virsh nodedev-dettach pci_0000_02_00_0
+virsh nodedev-dettach pci_0000_04_00_0
 ```
 
 然后编辑虚拟机配置文件，具体名称看你刚才设置的
@@ -286,20 +291,20 @@ vim vim /etc/libvirt/qemu/openwrt.xml
 ......
   <hostdev mode='subsystem' type='pci' managed='yes'>
    <source>
-     <address domain='0x0000' bus='0x02' slot='0x00' function='0x0'/>
+     <address domain='0x0000' bus='0x04' slot='0x00' function='0x0'/>
    </source>
   </hostdev>
 ......
 </devices>
 ```
 
-其中的 `<address domain='0x0000' bus='0x02' slot='0x00' function='0x0'/>`，这一部分按照上面的填，如果是可以直通的网卡，应该是有一栏一模一样的。
+其中的 `<address domain='0x0000' bus='0x04' slot='0x00' function='0x0'/>`，这一部分按照上面的填。
 
 添加完成之后，保存，然后重启主机，再打开虚拟机，看一下是否有另一张网卡。
 
 ### 不能硬件直通
 
-如果你的网卡和我演示的机器一样，不能pcie直通，就按照下面的来做。
+如果你的网卡是那种螃蟹卡，不能pcie直通，就按照下面的来做。
 
 在虚拟机这里再添加一张网卡
 
