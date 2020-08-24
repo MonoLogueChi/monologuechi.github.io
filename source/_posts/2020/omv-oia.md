@@ -240,7 +240,7 @@ virsh nodedev-list --tree |grep pci
 输入命令
 
 ```
-virsh nodedev-dumpxml pci_0000_02_00_0
+virsh nodedev-dumpxml pci_0000_04_00_0
 ```
 
 会输出这样的一堆东西
@@ -283,7 +283,7 @@ virsh nodedev-dettach pci_0000_04_00_0
 然后编辑虚拟机配置文件，具体名称看你刚才设置的
 
 ```
-vim vim /etc/libvirt/qemu/openwrt.xml
+vim /etc/libvirt/qemu/openwrt.xml
 ```
 
 添加一部分
@@ -320,6 +320,22 @@ vim vim /etc/libvirt/qemu/openwrt.xml
 
 接下来就是正常软路由的设置了，因为前面开机过一次，可能会遇到没有WAN口的情况，遇到这种情况，手动创建一个WAN口就可以了。
 
+
+## 补充
+
+貌似按照上面操作，OMV上的DNS会被NetworkManager接管，导致DNS配置出现问题。这个可以通过修改NetworkManager配置文件解决
+
+```
+vim /etc/NetworkManager/NetworkManager.conf
+```
+
+修改
+
+```
+[main]
+dns=none
+no-auto-default=*
+```
 ---
 
 参考
