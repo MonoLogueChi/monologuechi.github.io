@@ -166,7 +166,68 @@ sudo efibootmgr -c -g -d /dev/sdb -p 1 -L "debian #2" -l '\EFI\debian\shimx64.ef
 
 ## 安装 OMV
 
-Debian 安装完成了，剩下 OMV 的安装就比较简单了，参考 [官方文档](https://openmediavault.readthedocs.io/en/5.x/installation/on_debian.html) 即可，命令一步一步往下复制就行了。需要注意的是，这些命令需要切换到 root 用户去执行。
+> 建议：安装OMV之前将 `security.debian.org` 也替换掉 
+> ```
+> sed -i "s@http://security.debian.org@https://mirrors.huaweicloud.com@g" /etc/apt/sources.list
+> ```
+
+
+首先将系统更新到最新
+
+```
+sudo apt-get update
+sudo apt-get dist-upgrade
+```
+
+添加密钥
+
+```
+sudo apt-get install --yes gnupg
+sudo wget -O "/etc/apt/trusted.gpg.d/openmediavault-archive-keyring.asc" https://packages.openmediavault.org/public/archive.key
+sudo apt-key add "/etc/apt/trusted.gpg.d/openmediavault-archive-keyring.asc"
+```
+
+添加软件源
+
+```
+sudo vim /etc/apt/sources.list.d/openmediavault.list
+```
+
+写入内容为：
+
+```
+deb https://packages.openmediavault.org/public usul main
+# deb https://downloads.sourceforge.net/project/openmediavault/packages usul main
+## Uncomment the following line to add software from the proposed repository.
+deb https://packages.openmediavault.org/public usul-proposed main
+# deb https://downloads.sourceforge.net/project/openmediavault/packages usul-proposed main
+## This software is not part of OpenMediaVault, but is offered by third-party
+## developers as a service to OpenMediaVault users.
+# deb https://packages.openmediavault.org/public usul partner
+# deb https://downloads.sourceforge.net/project/openmediavault/packages usul partner
+```
+
+然后安装
+
+```
+export LANG=C.UTF-8
+export DEBIAN_FRONTEND=noninteractive
+export APT_LISTCHANGES_FRONTEND=none
+
+sudo apt-get update
+sudo apt-get --yes --auto-remove --show-upgraded \
+    --allow-downgrades --allow-change-held-packages \
+    --no-install-recommends \
+    --option Dpkg::Options::="--force-confdef" \
+    --option DPkg::Options::="--force-confold" \
+    install openmediavault-keyring openmediavault
+
+sudo omv-confdbadm populate
+```
+
+中间遇到什么需要让你手动选择的，全都是默认选项即可。
+
+然后在浏览器输入机器的ip或者是`debian/`即可访问后台网络面板。
 
 ## 参考
 
