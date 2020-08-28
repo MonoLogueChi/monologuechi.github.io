@@ -229,6 +229,8 @@ sudo omv-confdbadm populate
 
 然后在浏览器输入机器的ip或者是`debian/`即可访问后台网络面板。
 
+至于硬盘坏了怎么恢复，会在以后的文章中讲到。
+
 ## 参考
 
 https://www.jianshu.com/p/5557b6172b97  
