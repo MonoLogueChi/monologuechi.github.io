@@ -15,6 +15,10 @@ comments: true
 
 > 本文所用 OMV 版本为 OMV5，安装镜像为 `openmediavault_5.3.9-amd64.iso` 。
 
+## 视频教程
+
+{% bilibili "bvid:BV1Lv411173Q" "quality:high" "danmaku" "max_width:1000px" "allowfullscreen" %}
+
 ## 简介与镜像下载
 
 OMV 全称是 OpenMediavault，是基于 Debian 的一个开源 NAS 系统，具体资料可以去百度，我个人认为这是一个非常优秀和易用的 NAS 系统。

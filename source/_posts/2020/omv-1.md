@@ -3,7 +3,7 @@ title: OMV安装在raid上
 date: 2020-08-26 20:05:30
 tags: ["NAS", "OMV"]
 
-keywords: OMV NAS OpenMediaVault raid
+keywords: OMV NAS OpenMediaVault raid1 Linux 安装
 comments: true
 ---
 
@@ -22,6 +22,10 @@ comments: true
 这一次我们需要从 Debian 安装 OMV，所以需要一个 Debian10 的镜像，可以在[这里](https://mirrors.huaweicloud.com/debian-cd/)下载。
 
 本文目的是讲 Debian 安装在 raid1 上，并在每个硬盘上安装引导，做的在任意一块硬盘损坏的情况下，系统均能正常启动。
+
+## 视频教程
+
+{% bilibili "bvid:BV1Hh411R7iD" "quality:high" "danmaku" "max_width:1000px" "allowfullscreen" %}
 
 ## 安装 Debian
 
