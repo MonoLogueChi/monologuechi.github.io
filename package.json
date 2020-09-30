@@ -5,7 +5,10 @@
   "hexo": {
     "version": "4.2.1"
   },
-  "dependencies": {
+  "scripts": {
+    "start": "hexo clean && hexo g"
+  },
+  "devDependencies": {
     "hexo": "^4.2.1",
     "hexo-asset-pipeline": "^1.8.0",
     "hexo-baidu-url-submit": "^0.0.6",
@@ -24,10 +27,8 @@
     "hexo-util": "^2.2.0",
     "keyword-extractor": "^0.0.19",
     "lodash": "^4.17.19",
+    "markdown-it-checkbox": "^1.1.0",
     "markdown-it-imsize": "^2.0.1",
     "utils-merge": "^1.0.1"
-  },
-  "scripts": {
-    "start": "hexo clean && hexo g"
   }
 }

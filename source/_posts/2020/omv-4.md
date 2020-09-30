@@ -11,6 +11,10 @@ comments: true
 
 <!-- more -->
 
+> 本文所介绍的权限控制主要是 ACL，按照 OMV 文档说明：
+> Provides fine grained permission control besides the standard POSIX permissions. The usage of ACL is not recommended for the average home user. If a server is using an extensive list of users then ACL could suit better[^不建议使用acl].
+> 简单来说就是人少不建议用 ACL，但是有大量用户的时候 ACL 更加合适。
+
 ## RAID 管理
 
 首先看 RAID 管理，在 omv 里，组件 RAID 有多种方式，比如像 freenas 一样，用 zfs，但是相比之下，我更推荐直接使用软 RAID。
@@ -21,7 +25,7 @@ comments: true
 
 ![RAID类型](/assets/img/2020/09/200904_115033_msedge_hdkh.png)
 
-点击 `新建`，可以看到 RAID 级别有这么多种，简单的对应关系如下表：
+点击 `新建`，可以看到 RAID 级别有这么多种，简单的对应关系如下表[^raid表格]：
 
 | 名称   | RAID 级别 | 最少硬盘 | 最大容错 | 可用容量 | 读取性能 | 写入性能 | 安全性                         | 目的                                  | 应用产业             |
 | ------ | --------- | -------- | -------- | -------- | -------- | -------- | ------------------------------ | ------------------------------------- | -------------------- |
@@ -59,6 +63,8 @@ comments: true
 ![](/assets/img/2020/09/200904_145058_msedge_TWQQ.png)
 
 ## 用户和权限管理
+
+> 权限管理这部分大家看看就好，我写的也不是特别好，虽然会用，但是不能总结不出来权限管理应该怎么用。
 
 ### 用户组权限管理
 
@@ -105,13 +111,13 @@ comments: true
 
 ### 特权
 
-特权是 ACL 之外的补充，是一种更灵活的权限管理，但尽量少用，用多了你可能会把自己搞乱。不要图一时方便，按照规矩来，以后会更方便。
+特权是 ACL 之外的补充，是一种更灵活的权限管理.
 
 ## SMB 共享
 
-前面的步骤只是在磁盘里创建了共享目录，但是并没有真正共享出去，我们还需要开启SMB服务。
+前面的步骤只是在磁盘里创建了共享目录，但是并没有真正共享出去，我们还需要开启 SMB 服务。
 
-在 `服务` - `SMB/CIFS` 选项卡下，启用SMB服务
+在 `服务` - `SMB/CIFS` 选项卡下，启用 SMB 服务
 
 ![](/assets/img/2020/09/200904_151722_msedge_HHwQ.png)
 
@@ -119,7 +125,7 @@ comments: true
 
 ![](/assets/img/2020/09/200904_151828_msedge_oB7M.png)
 
-然后在Windows电脑上，资源管理器地址栏输入 `\\omv` 或者是 `\\192.168.1.xxx`（ip），就可以访问，输入账号和密码登录。如果需要磁盘映射，可以直接右键点击需要映射的目录，然后映射网络驱动器即可。
+然后在 Windows 电脑上，资源管理器地址栏输入 `\\omv` 或者是 `\\192.168.1.xxx`（ip），就可以访问，输入账号和密码登录。如果需要磁盘映射，可以直接右键点击需要映射的目录，然后映射网络驱动器即可。
 
 ![](/assets/img/2020/09/200904_152540_dopus_1d20.png)
 
@@ -127,6 +133,5 @@ comments: true
 
 ![](/assets/img/2020/09/200904_152659_dopus_7O5q.png)
 
-## 参考文档
-
-https://zh.wikipedia.org/wiki/RAID
+[^不建议使用acl]: [ACL (Access Control List)](https://openmediavault.readthedocs.io/en/5.x/administration/access_rights_management.html#acl-access-control-list)
+[^raid表格]: [RAID](https://zh.wikipedia.org/wiki/RAID)

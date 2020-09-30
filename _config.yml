@@ -76,17 +76,24 @@ markdown:
     quotes: "“”‘’"
   plugins:
     - markdown-it-abbr
+    - markdown-it-cjk-breaks
+    - markdown-it-container
+    - markdown-it-deflist
+    - markdown-it-emoji
     - markdown-it-footnote
     - markdown-it-ins
+    - markdown-it-mark
     - markdown-it-sub
     - markdown-it-sup
+    - markdown-it-checkbox
     - markdown-it-imsize
   anchors:
     level: 2
-    collisionSuffix: "v"
-    permalink: false
+    collisionSuffix: ""
+    permalink: true
     permalinkClass: header-anchor
-    permalinkSymbol: ¶
+    permalinkSide: right
+    permalinkSymbol: "➴"
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -322,7 +329,7 @@ theme_config:
     recordIP: true #记录IP
     serverURLs: "https://leancloud.xxwhite.com"
     version: latest #例如 latest 1.4.5 1
-    adminEmailMd5:	a70ed099981735ebdf3d7c71dc507559
+    adminEmailMd5: a70ed099981735ebdf3d7c71dc507559
     # emojiCDN: https://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/
     # emojiMaps:
     #   smile: e3/2018new_weixioa02_org.png
