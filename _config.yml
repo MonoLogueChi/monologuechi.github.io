@@ -6,17 +6,7 @@
 title: "叉叉白"
 subtitle: "叉叉白，听我跟你瞎白话"
 description: "一个小白搞机的记事本"
-keywords: 叉叉白
-  搞机
-  小白
-  安卓
-  Xposed
-  Magisk
-  刷机
-  救砖
-  Unity
-  Hexo
-  建站
+keywords: 叉叉白,搞机,小白,安卓,Xposed,Magisk,刷机,救砖,Unity,Hexo,建站,网络,软路由
 author: "MonoLogueChi"
 language: "Zh-cn"
 timezone: ""
@@ -318,7 +308,7 @@ theme_config:
 
   #6、Valine https://valine.js.org
   valine:
-    mini: true
+    mini: false
     appId: "BOnDPDiz9EeoGAC11JdnV9mw-gzGzoHsz" #Leancloud应用的appId
     appKey: "gNFFgOahNl9DGsyX1WearaYO" #Leancloud应用的appId
     avatar: "" #评论列表头像样式：''/mm/identicon/monsterid/wavatar/retro/hide
