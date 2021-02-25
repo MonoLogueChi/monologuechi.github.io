@@ -12,7 +12,7 @@ comments: true
 
 - - - - --
 
-{% meting "004KvnQu2AnzoV" "tencent" "song" %}
+{% mmedia "meting" "id:004KvnQu2AnzoV" "server:tencent" "type:song" %}
 
 - - - - ---
 

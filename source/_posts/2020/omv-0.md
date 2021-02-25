@@ -17,7 +17,7 @@ comments: true
 
 ## 视频教程
 
-{% bilibili "bvid:BV1Lv411173Q" "quality:high" "danmaku" "max_width:1000px" "allowfullscreen" %}
+{% mmedia "bilibili" "bvid:BV1Lv411173Q" %}
 
 ## 简介与镜像下载
 

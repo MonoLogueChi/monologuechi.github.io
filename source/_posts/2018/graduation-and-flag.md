@@ -11,7 +11,7 @@ comments: true
 
 <!-- more -->
 
-{% meting "0008yfgO0dmovi" "tencent" "song" %}
+{% mmedia "meting" "id:0008yfgO0dmovi" "server:tencent" "type:song" %}
 
 大学这四年吧，感觉白过了，学也没学好，玩也没玩好。
 

@@ -13,7 +13,7 @@ comments: true
 
 <!-- more -->
 
-{% meting "003YNUtF25FxAk" "tencent" "song" %}
+{% mmedia "meting" "id:003YNUtF25FxAk" "server:tencent" "type:song" %}
 
 ## 先看看有没有现成的轮子
 

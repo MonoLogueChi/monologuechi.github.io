@@ -11,7 +11,7 @@ comments: true
 
 <!-- more -->
 
-{% meting "001Mf4Ic1aNYYK" "tencent" "album" "order:random" "listmaxheight:180px" %}
+{% mmedia "meting" "id:001Mf4Ic1aNYYK" "server:tencent" "type:album" "listmaxheight:240px" %}
 
 本篇文章篇幅较长，您可以打开音乐播放器慢慢来看。
 

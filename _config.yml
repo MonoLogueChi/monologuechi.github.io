@@ -155,28 +155,23 @@ jsonContent:
 
 mmedia:
   aplayer:
-    cdn: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js
-    style_cdn: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css
     default:
       order: random
   meting:
-    cdn: https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js
     api: https://sm.sm9.top/api.php
     default:
       order: random
   dplayer:
-    cdn: https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.js
-    style_cdn: https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.css
     default:
-      api: https://danmu.u2sb.top/api/danmu/dplayer/
       loop: true
-      screenshot: true
   bilibili:
     default:
-      quality: high
       danmaku: true
-      width: 100%
-      max_width: 850px
+      max_width: 950px
+      margin: auto
+  xigua:
+    default:
+      max_width: 950px
       margin: auto
 
 #网页压缩

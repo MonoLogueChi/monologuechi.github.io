@@ -25,7 +25,7 @@ comments: true
 
 ## 视频教程
 
-{% bilibili "bvid:BV1Hh411R7iD" "quality:high" "danmaku" "max_width:1000px" "allowfullscreen" %}
+{% mmedia "bilibili" "bvid:BV1Hh411R7iD" %}
 
 ## 安装 Debian
 
