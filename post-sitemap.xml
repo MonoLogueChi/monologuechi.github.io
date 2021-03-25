@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>https://blog.xxwhite.com/</loc>
+        <changefreq>daily</changefreq>
+        <priority>1</priority>
+    </url>
+
+
+    <url>
+        <loc>https://blog.xxwhite.com/HelloWorld.html</loc>
+        <lastmod>2021-03-25T02:35:30.816Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2018/wsl.html</loc>
+        <lastmod>2021-03-25T02:35:30.816Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2019/5g-wifi.html</loc>
+        <lastmod>2021-03-25T02:35:30.816Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2019/azure-ci.html</loc>
+        <lastmod>2021-03-25T02:35:30.816Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2019/cpu-reduction-voltage.html</loc>
+        <lastmod>2021-03-25T02:35:30.816Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2019/custom-mirror.html</loc>
+        <lastmod>2021-03-25T02:35:30.816Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2019/ddns.html</loc>
+        <lastmod>2021-03-25T02:35:30.816Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2019/hexo-scripts.html</loc>
+        <lastmod>2021-03-25T02:35:30.816Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2019/mx-and-cname.html</loc>
+        <lastmod>2021-03-25T02:35:30.816Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2019/pay-for-knowledge.html</loc>
+        <lastmod>2021-03-25T02:35:30.816Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2019/proxy1.html</loc>
+        <lastmod>2021-03-25T02:35:30.816Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2019/rss-rsshub.html</loc>
+        <lastmod>2021-03-25T02:35:30.816Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2019/small-jj.html</loc>
+        <lastmod>2021-03-25T02:35:30.816Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2019/unity-2danimation.html</loc>
+        <lastmod>2021-03-25T02:35:30.816Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2019/unity-webgl-keng.html</loc>
+        <lastmod>2021-03-25T02:35:30.816Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2019/xzp-root.html</loc>
+        <lastmod>2021-03-25T02:35:30.816Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2019/your-own-yilia-1.html</loc>
+        <lastmod>2021-03-25T02:35:30.816Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2019/your-own-yilia-2.html</loc>
+        <lastmod>2021-03-25T02:35:30.816Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2020/Academic-conference-live-broadcast.html</loc>
+        <lastmod>2021-03-25T02:35:30.816Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2020/archlinux-install.html</loc>
+        <lastmod>2021-03-25T02:35:30.816Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2020/arduino-first-sight.html</loc>
+        <lastmod>2021-03-25T02:35:30.816Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2020/aspnetcore-vue.html</loc>
+        <lastmod>2021-03-25T02:35:30.816Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2020/bilibili-bvid.html</loc>
+        <lastmod>2021-03-25T02:35:30.816Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2020/blog-ci.html</loc>
+        <lastmod>2021-03-25T02:35:30.816Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2020/flash-image.html</loc>
+        <lastmod>2021-03-25T02:35:30.816Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2020/omv-0.html</loc>
+        <lastmod>2021-03-25T02:35:30.816Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2020/omv-1.html</loc>
+        <lastmod>2021-03-25T02:35:30.816Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2020/omv-2.html</loc>
+        <lastmod>2021-03-25T02:35:30.816Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2020/omv-3.html</loc>
+        <lastmod>2021-03-25T02:35:30.816Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2020/omv-4.html</loc>
+        <lastmod>2021-03-25T02:35:30.816Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2020/omv-oia.html</loc>
+        <lastmod>2021-03-25T02:35:30.816Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2020/pve-router.html</loc>
+        <lastmod>2021-03-25T02:35:30.816Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2020/router-ap-wifi.html</loc>
+        <lastmod>2021-03-25T02:35:30.816Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2020/side-routing.html</loc>
+        <lastmod>2021-03-25T02:35:30.816Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2020/tm.html</loc>
+        <lastmod>2021-03-25T02:35:30.816Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2020/voicemeeter.html</loc>
+        <lastmod>2021-03-25T02:35:30.816Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2020/yearend-summary.html</loc>
+        <lastmod>2021-03-25T02:35:30.816Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/timeline/2020/2020-01-04.html</loc>
+        <lastmod>2021-03-25T02:35:30.816Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/timeline/2020/2020-01-09.html</loc>
+        <lastmod>2021-03-25T02:35:30.816Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2020/bilibili-danmaku.html</loc>
+        <lastmod>2021-03-25T02:35:30.816Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2017/AZL.html</loc>
+        <lastmod>2021-03-25T02:35:30.812Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2017/AdbUsing.html</loc>
+        <lastmod>2021-03-25T02:35:30.812Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2017/Bqn.html</loc>
+        <lastmod>2021-03-25T02:35:30.812Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2017/BuildNote.html</loc>
+        <lastmod>2021-03-25T02:35:30.812Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2017/Gapps.html</loc>
+        <lastmod>2021-03-25T02:35:30.812Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2017/NumDemo.html</loc>
+        <lastmod>2021-03-25T02:35:30.812Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2017/RandomNum1.html</loc>
+        <lastmod>2021-03-25T02:35:30.812Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2017/Valine.html</loc>
+        <lastmod>2021-03-25T02:35:30.812Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2017/VideoTest.html</loc>
+        <lastmod>2021-03-25T02:35:30.812Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2017/XposedInstall.html</loc>
+        <lastmod>2021-03-25T02:35:30.812Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2017/YCSJ.html</loc>
+        <lastmod>2021-03-25T02:35:30.812Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2017/ZhJi.html</loc>
+        <lastmod>2021-03-25T02:35:30.812Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2018/50YearsLater.html</loc>
+        <lastmod>2021-03-25T02:35:30.812Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2018/9x9.html</loc>
+        <lastmod>2021-03-25T02:35:30.812Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2018/Clipboard.html</loc>
+        <lastmod>2021-03-25T02:35:30.812Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2018/Clipvideos.html</loc>
+        <lastmod>2021-03-25T02:35:30.812Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2018/Drcom.html</loc>
+        <lastmod>2021-03-25T02:35:30.812Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2018/DwgToPdf.html</loc>
+        <lastmod>2021-03-25T02:35:30.812Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2018/FreeXshell6.html</loc>
+        <lastmod>2021-03-25T02:35:30.812Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2018/FusionApp1.html</loc>
+        <lastmod>2021-03-25T02:35:30.812Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2018/HexoKeng.html</loc>
+        <lastmod>2021-03-25T02:35:30.812Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2018/KeyCastOW.html</loc>
+        <lastmod>2021-03-25T02:35:30.812Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2018/OP5LongShot.html</loc>
+        <lastmod>2021-03-25T02:35:30.812Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2018/PanHtml.html</loc>
+        <lastmod>2021-03-25T02:35:30.812Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2018/UseJB.html</loc>
+        <lastmod>2021-03-25T02:35:30.812Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2018/YHKindergarten.html</loc>
+        <lastmod>2021-03-25T02:35:30.812Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2018/add-download-markdown.html</loc>
+        <lastmod>2021-03-25T02:35:30.812Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2018/alittlechange.html</loc>
+        <lastmod>2021-03-25T02:35:30.812Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2018/drcom-develop.html</loc>
+        <lastmod>2021-03-25T02:35:30.812Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2018/graduation-and-flag.html</loc>
+        <lastmod>2021-03-25T02:35:30.812Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2018/image-format.html</loc>
+        <lastmod>2021-03-25T02:35:30.812Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2018/oneplus5-change-screen.html</loc>
+        <lastmod>2021-03-25T02:35:30.812Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2018/orangepi.html</loc>
+        <lastmod>2021-03-25T02:35:30.812Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2018/personal-server.html</loc>
+        <lastmod>2021-03-25T02:35:30.812Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2018/recommended-tools.html</loc>
+        <lastmod>2021-03-25T02:35:30.812Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2018/run-dotnetcore.html</loc>
+        <lastmod>2021-03-25T02:35:30.812Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2018/simplify-windows.html</loc>
+        <lastmod>2021-03-25T02:35:30.812Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2018/unity-vs-debug.html</loc>
+        <lastmod>2021-03-25T02:35:30.812Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2018/unity-vs-resharper.html</loc>
+        <lastmod>2021-03-25T02:35:30.812Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2018/using-oneindex.html</loc>
+        <lastmod>2021-03-25T02:35:30.812Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.xxwhite.com/2018/using-upyun.html</loc>
+        <lastmod>2021-03-25T02:35:30.812Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+</urlset>
+<!-- XML Sitemap generated by Hexo SEO Friendly Sitemap Generator -->
